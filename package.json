@@ -1,0 +1,22 @@
+{
+  "name": "react_practise",
+  "version": "1.0.0",
+  "description": "my first react app ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "practise",
+    "app"
+  ],
+  "author": "pradeep",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
