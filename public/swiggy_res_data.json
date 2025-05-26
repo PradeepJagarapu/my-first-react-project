@@ -1,0 +1,23 @@
+{
+  "data": {
+    "cards": [
+      {},
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "gridElements": {
+              "infoWithStyle": {
+                "restaurants": [
+                  { "id": 1, "name": "Pizza Palace" },
+                  { "id": 2, "name": "Burger Town" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

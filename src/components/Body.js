@@ -1,64 +1,122 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { resDataList } from "../utils/swiggyResDataList";
 
-var searchTxt = "";
-
+const swiggyImgSourcePath =
+  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/";
 const Body = function () {
   return (
     <div id="body">
       <SearchBoxDiv />
-      <FoodItemsDiv />
+      {/*<FoodItemsDiv />*/}
     </div>
   );
-};
-
-var searchRes = function () {
-  const [resDataList, setresDataList] = useState(resDataList);
-  searchTxt = document.getElementById("searchTxt").value;
-
-  resDataList = resDataList.filter(function (restaurant) {
-    return searchTxt == restaurant.info.name;
-  });
-
-  console.log(resDataList);
-
-  setresDataList(resDataList);
 };
 
 const SearchBoxDiv = function () {
+  const [listOfRestaurants, setListOfRestaurants] = useState(resDataList);
+
   const [searchTxt, setSearchTxt] = useState("");
+
+  // const fetchedResData = async () => {
+  //   const data = await fetch("/swiggy_res_data.json");
+
+  //   // const text = await data.text();
+  //   // console.log(text);
+
+  //   const jsonObj = JSON.parse(data);
+
+  //   setListOfRestaurants(
+  //     jsonObj?.data?.cards[3]?.card?.card?.gridElements.infoWithStyle
+  //       .restaurants
+  //   );
+  // };
+
+  // useEffect(() => {
+  //   fetchedResData();
+  // }, []);
+  useEffect(() => {
+    if (searchTxt == "") {
+      setListOfRestaurants(resDataList);
+    }
+  }, [searchTxt]);
   return (
-    <div id="searchBox">
-      <input
-        id="searchTxt"
-        type="text"
-        className="search-input"
-        placeholder="Search"
-        value={searchTxt}
-        onChange={(e) => {
-          var temp = e.target.value;
-          console.log("Before updation:" + temp);
-          setSearchTxt(temp);
-          console.log("After updation:" + temp);
-          console.log(searchTxt);
-        }}
-      />
-      <button>Search</button>
-    </div>
+    <>
+      <div id="searchBox">
+        <input
+          id="searchTxt"
+          type="text"
+          className="search-input"
+          placeholder="Search"
+          value={searchTxt}
+          onChange={(e) => {
+            setSearchTxt(e.target.value);
+
+            const filtedResList = resDataList.filter((restaurant) => {
+              return restaurant.info.name
+                .toLowerCase()
+                .includes(e.target.value.toLowerCase());
+            });
+
+            setListOfRestaurants(filtedResList);
+          }}
+        />
+        <button>Search</button>
+        <button
+          onClick={() => {
+            const filtedResList = resDataList.filter((restaurant) => {
+              return restaurant.info.avgRating > 4.3;
+            });
+
+            setListOfRestaurants(filtedResList);
+          }}
+        >
+          Top Rated
+        </button>
+        <select>
+          <option>Biryani</option>
+          <option>Pizza</option>
+          <option>Burger</option>
+        </select>
+        <button
+          onClick={() => {
+            const filtedResList = resDataList.filter((restaurant) => {
+              return restaurant.info.cuisines.some(
+                (cuisine) => cuisine == "Biryani"
+              );
+            });
+            setListOfRestaurants(filtedResList);
+          }}
+        >
+          Biryani
+        </button>
+        <button
+          onClick={() => {
+            setListOfRestaurants(resDataList);
+          }}
+        >
+          Clear Filter
+        </button>
+      </div>
+
+      <div id="foodItems">
+        {listOfRestaurants.map((restaurant, index) => {
+          return <RestaurantCard key={index} resData={restaurant} />;
+        })}
+      </div>
+    </>
   );
 };
 
-const swiggyImgSourcePath =
-  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/";
-const FoodItemsDiv = function () {
-  return (
-    <div id="foodItems">
-      {resDataList.map((restaurant, index) => {
-        return <RestaurantCard key={index} resData={restaurant} />;
-      })}
-    </div>
-  );
-};
+//
+// const FoodItemsDiv = function () {
+//   return (
+//     <div id="foodItems">
+//       {resDataList.map((restaurant, index) => {
+//         return <RestaurantCard key={index} resData={restaurant} />;
+//       })}
+//     </div>
+//   );
+// };
 
 const RestaurantCard = function (props) {
   return (

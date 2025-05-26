@@ -3,7 +3,7 @@ const swiggyResDataList = {
   data: {
     statusMessage: "done successfully",
     pageOffset: {
-      nextOffset: "CJhlELQ4KICggrHlitSfLjClEzgC",
+      nextOffset: "CJhlELQ4KID408mU1oj0NzCnEzgC",
       widgetOffset: {
         NewListingView_category_bar_chicletranking_TwoRows: "",
         NewListingView_category_bar_chicletranking_TwoRows_Rendition: "",
@@ -20,27 +20,16 @@ const swiggyResDataList = {
             "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
             header: {
               title: "What's on your mind?",
-              headerStyling: {
-                padding: {
-                  left: 16,
-                  top: 16,
-                  bottom: 4,
-                },
-              },
+              headerStyling: { padding: { left: 16, top: 16, bottom: 4 } },
             },
             layout: {
-              rows: 2,
+              rows: 1,
               columns: 10,
               horizontalScrollEnabled: true,
-              itemSpacing: 8,
+              itemSpacing: 24,
               widgetPadding: {},
               containerStyle: {
-                containerPadding: {
-                  left: 8,
-                  top: 8,
-                  right: 12,
-                  bottom: 4,
-                },
+                containerPadding: { left: 8, top: 8, right: 12, bottom: 4 },
               },
               scrollBar: {},
               widgetTheme: {
@@ -48,9 +37,7 @@ const swiggyResDataList = {
                   backgroundColour: "#FFFFFF",
                   theme: "THEME_TYPE_LIGHT",
                 },
-                darkMode: {
-                  theme: "THEME_TYPE_DARK",
-                },
+                darkMode: { theme: "THEME_TYPE_DARK" },
               },
             },
             imageGridCards: {
@@ -71,44 +58,6 @@ const swiggyResDataList = {
                   },
                   entityId:
                     "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani&search_context=biryani",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "749868",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/83655?collection_id=83655&tags=layout_CCS_Cake&type=rcv2",
-                    text: "Cakes",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurant curated for cake",
-                    altTextCta: "open",
-                  },
-                  entityId:
-                    "swiggy://collectionV2?collection_id=83655&tags=layout_CCS_Cake",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "750596",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                    text: "Ice Cream",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurants curated for icecream",
-                    altTextCta: "open",
-                  },
-                  entityId:
-                    "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
                   frequencyCapping: {},
                   externalMarketing: {},
                 },
@@ -151,6 +100,44 @@ const swiggyResDataList = {
                   externalMarketing: {},
                 },
                 {
+                  id: "749868",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/83655?collection_id=83655&tags=layout_CCS_Cake&type=rcv2",
+                    text: "Cakes",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurant curated for cake",
+                    altTextCta: "open",
+                  },
+                  entityId:
+                    "swiggy://collectionV2?collection_id=83655&tags=layout_CCS_Cake",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "750596",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+                    text: "Ice Cream",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurants curated for icecream",
+                    altTextCta: "open",
+                  },
+                  entityId:
+                    "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
                   id: "750585",
                   imageId:
                     "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
@@ -188,63 +175,6 @@ const swiggyResDataList = {
                   externalMarketing: {},
                 },
                 {
-                  id: "750589",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
-                    text: "Burgers",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurants curated for burger",
-                    altTextCta: "open",
-                  },
-                  entityId:
-                    "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "750581",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/05a939eb-fd4e-4308-b989-d1c54f4421b3_northindian1.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
-                    text: "North Indian",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurants curated for north indian",
-                    altTextCta: "open",
-                  },
-                  entityId:
-                    "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "750643",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
-                    text: "Idli",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurants curated for idly",
-                    altTextCta: "open",
-                  },
-                  entityId:
-                    "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
                   id: "750222",
                   imageId:
                     "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
@@ -264,57 +194,21 @@ const swiggyResDataList = {
                   externalMarketing: {},
                 },
                 {
-                  id: "749816",
+                  id: "750589",
                   imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Bath.png",
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
                   action: {
-                    link: "https://www.swiggy.com/collections/80354?collection_id=80354&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
-                    text: "Bath",
+                    link: "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+                    text: "Burgers",
                     type: "WEBLINK",
                   },
                   entityType: "BANNER",
                   accessibility: {
-                    altText: "restaurant curated for bath",
-                    altTextCta: "open",
-                  },
-                  entityId: "80354",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "750635",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
-                    text: "Kebabs",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurant curated for kebabs",
+                    altText: "restaurants curated for burger",
                     altTextCta: "open",
                   },
                   entityId:
-                    "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "749772",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                    text: "Noodles",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurant curated for noodles",
-                    altTextCta: "open",
-                  },
-                  entityId: "80463",
+                    "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
                   frequencyCapping: {},
                   externalMarketing: {},
                 },
@@ -352,24 +246,6 @@ const swiggyResDataList = {
                   },
                   entityId:
                     "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
-                  frequencyCapping: {},
-                  externalMarketing: {},
-                },
-                {
-                  id: "750204",
-                  imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Parotta.png",
-                  action: {
-                    link: "https://www.swiggy.com/collections/80477?collection_id=80477&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
-                    text: "Parotta",
-                    type: "WEBLINK",
-                  },
-                  entityType: "BANNER",
-                  accessibility: {
-                    altText: "restaurant curated for parotta",
-                    altTextCta: "open",
-                  },
-                  entityId: "80477",
                   frequencyCapping: {},
                   externalMarketing: {},
                 },
@@ -412,20 +288,131 @@ const swiggyResDataList = {
                   externalMarketing: {},
                 },
                 {
-                  id: "750234",
+                  id: "750635",
                   imageId:
-                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/2b999748-b33c-4560-a422-e90f3e60a5fb_Poori1.png",
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
                   action: {
-                    link: "https://www.swiggy.com/collections/80377?collection_id=80377&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-                    text: "Poori",
+                    link: "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
+                    text: "Kebabs",
                     type: "WEBLINK",
                   },
                   entityType: "BANNER",
                   accessibility: {
-                    altText: "restaurant curated for poori",
+                    altText: "restaurant curated for kebabs",
                     altTextCta: "open",
                   },
-                  entityId: "80377",
+                  entityId:
+                    "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "749816",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Bath.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80354?collection_id=80354&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
+                    text: "Bath",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurant curated for bath",
+                    altTextCta: "open",
+                  },
+                  entityId: "80354",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "749772",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                    text: "Noodles",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurant curated for noodles",
+                    altTextCta: "open",
+                  },
+                  entityId: "80463",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "750643",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+                    text: "Idli",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurants curated for idly",
+                    altTextCta: "open",
+                  },
+                  entityId:
+                    "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "750204",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Parotta.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80477?collection_id=80477&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
+                    text: "Parotta",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurant curated for parotta",
+                    altTextCta: "open",
+                  },
+                  entityId: "80477",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "750201",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
+                    text: "Paratha",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurants curated for paratha",
+                    altTextCta: "open",
+                  },
+                  entityId:
+                    "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+                  frequencyCapping: {},
+                  externalMarketing: {},
+                },
+                {
+                  id: "749762",
+                  imageId:
+                    "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/3f2c40d3-96c7-44ce-8b35-aef6ea746cdc_lassi.png",
+                  action: {
+                    link: "https://www.swiggy.com/collections/80458?collection_id=80458&tags=layout_BAU_Contextual%2Classi&type=rcv2",
+                    text: "Lassi",
+                    type: "WEBLINK",
+                  },
+                  entityType: "BANNER",
+                  accessibility: {
+                    altText: "restaurant curated for lassi",
+                    altTextCta: "open",
+                  },
+                  entityId: "80458",
                   frequencyCapping: {},
                   externalMarketing: {},
                 },
@@ -469,44 +456,6 @@ const swiggyResDataList = {
                     externalMarketing: {},
                   },
                   {
-                    id: "749868",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/83655?collection_id=83655&tags=layout_CCS_Cake&type=rcv2",
-                      text: "Cakes",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurant curated for cake",
-                      altTextCta: "open",
-                    },
-                    entityId:
-                      "swiggy://collectionV2?collection_id=83655&tags=layout_CCS_Cake",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
-                    id: "750596",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                      text: "Ice Cream",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurants curated for icecream",
-                      altTextCta: "open",
-                    },
-                    entityId:
-                      "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
                     id: "750579",
                     imageId:
                       "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png",
@@ -541,6 +490,44 @@ const swiggyResDataList = {
                     },
                     entityId:
                       "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "749868",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_cake.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/83655?collection_id=83655&tags=layout_CCS_Cake&type=rcv2",
+                      text: "Cakes",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurant curated for cake",
+                      altTextCta: "open",
+                    },
+                    entityId:
+                      "swiggy://collectionV2?collection_id=83655&tags=layout_CCS_Cake",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "750596",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
+                      text: "Ice Cream",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurants curated for icecream",
+                      altTextCta: "open",
+                    },
+                    entityId:
+                      "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
                     frequencyCapping: {},
                     externalMarketing: {},
                   },
@@ -582,63 +569,6 @@ const swiggyResDataList = {
                     externalMarketing: {},
                   },
                   {
-                    id: "750589",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
-                      text: "Burgers",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurants curated for burger",
-                      altTextCta: "open",
-                    },
-                    entityId:
-                      "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
-                    id: "750581",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/05a939eb-fd4e-4308-b989-d1c54f4421b3_northindian1.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
-                      text: "North Indian",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurants curated for north indian",
-                      altTextCta: "open",
-                    },
-                    entityId:
-                      "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
-                    id: "750643",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
-                      text: "Idli",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurants curated for idly",
-                      altTextCta: "open",
-                    },
-                    entityId:
-                      "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
                     id: "750222",
                     imageId:
                       "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/17/58760e8e-324f-479e-88fa-31800120ea38_Rolls1.png",
@@ -658,57 +588,21 @@ const swiggyResDataList = {
                     externalMarketing: {},
                   },
                   {
-                    id: "749816",
+                    id: "750589",
                     imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Bath.png",
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
                     action: {
-                      link: "https://www.swiggy.com/collections/80354?collection_id=80354&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
-                      text: "Bath",
+                      link: "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+                      text: "Burgers",
                       type: "WEBLINK",
                     },
                     entityType: "BANNER",
                     accessibility: {
-                      altText: "restaurant curated for bath",
-                      altTextCta: "open",
-                    },
-                    entityId: "80354",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
-                    id: "750635",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
-                      text: "Kebabs",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurant curated for kebabs",
+                      altText: "restaurants curated for burger",
                       altTextCta: "open",
                     },
                     entityId:
-                      "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
-                    id: "749772",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                      text: "Noodles",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurant curated for noodles",
-                      altTextCta: "open",
-                    },
-                    entityId: "80463",
+                      "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
                     frequencyCapping: {},
                     externalMarketing: {},
                   },
@@ -746,24 +640,6 @@ const swiggyResDataList = {
                     },
                     entityId:
                       "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
-                    frequencyCapping: {},
-                    externalMarketing: {},
-                  },
-                  {
-                    id: "750204",
-                    imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Parotta.png",
-                    action: {
-                      link: "https://www.swiggy.com/collections/80477?collection_id=80477&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
-                      text: "Parotta",
-                      type: "WEBLINK",
-                    },
-                    entityType: "BANNER",
-                    accessibility: {
-                      altText: "restaurant curated for parotta",
-                      altTextCta: "open",
-                    },
-                    entityId: "80477",
                     frequencyCapping: {},
                     externalMarketing: {},
                   },
@@ -806,20 +682,131 @@ const swiggyResDataList = {
                     externalMarketing: {},
                   },
                   {
-                    id: "750234",
+                    id: "750635",
                     imageId:
-                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/2b999748-b33c-4560-a422-e90f3e60a5fb_Poori1.png",
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
                     action: {
-                      link: "https://www.swiggy.com/collections/80377?collection_id=80377&tags=layout_BAU_Contextual%2Cpoori&type=rcv2",
-                      text: "Poori",
+                      link: "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
+                      text: "Kebabs",
                       type: "WEBLINK",
                     },
                     entityType: "BANNER",
                     accessibility: {
-                      altText: "restaurant curated for poori",
+                      altText: "restaurant curated for kebabs",
                       altTextCta: "open",
                     },
-                    entityId: "80377",
+                    entityId:
+                      "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "749816",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Bath.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80354?collection_id=80354&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
+                      text: "Bath",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurant curated for bath",
+                      altTextCta: "open",
+                    },
+                    entityId: "80354",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "749772",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                      text: "Noodles",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurant curated for noodles",
+                      altTextCta: "open",
+                    },
+                    entityId: "80463",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "750643",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Idli.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80440?collection_id=80440&tags=layout_CCS_Idli&type=rcv2",
+                      text: "Idli",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurants curated for idly",
+                      altTextCta: "open",
+                    },
+                    entityId:
+                      "swiggy://collectionV2?collection_id=80440&tags=layout_CCS_Idli",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "750204",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Parotta.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80477?collection_id=80477&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
+                      text: "Parotta",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurant curated for parotta",
+                      altTextCta: "open",
+                    },
+                    entityId: "80477",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "750201",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
+                      text: "Paratha",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurants curated for paratha",
+                      altTextCta: "open",
+                    },
+                    entityId:
+                      "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+                    frequencyCapping: {},
+                    externalMarketing: {},
+                  },
+                  {
+                    id: "749762",
+                    imageId:
+                      "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/3f2c40d3-96c7-44ce-8b35-aef6ea746cdc_lassi.png",
+                    action: {
+                      link: "https://www.swiggy.com/collections/80458?collection_id=80458&tags=layout_BAU_Contextual%2Classi&type=rcv2",
+                      text: "Lassi",
+                      type: "WEBLINK",
+                    },
+                    entityType: "BANNER",
+                    accessibility: {
+                      altText: "restaurant curated for lassi",
+                      altTextCta: "open",
+                    },
+                    entityId: "80458",
                     frequencyCapping: {},
                     externalMarketing: {},
                   },
@@ -848,38 +835,23 @@ const swiggyResDataList = {
             header: {
               title: "Top restaurant chains in Vizag",
               action: {},
-              headerStyling: {
-                padding: {
-                  left: 16,
-                  top: 28,
-                  bottom: 18,
-                },
-              },
+              headerStyling: { padding: { left: 16, top: 28, bottom: 18 } },
             },
             layout: {
               rows: 1,
               columns: 20,
               horizontalScrollEnabled: true,
-              itemSpacing: 16,
+              itemSpacing: 32,
               widgetPadding: {},
               containerStyle: {
-                containerPadding: {
-                  left: 16,
-                  right: 12,
-                  bottom: 12,
-                },
+                containerPadding: { left: 16, right: 12, bottom: 12 },
               },
               scrollBar: {
                 scrollThumbColor: "#E46D47",
                 scrollTrackColor: "#02060C",
                 width: 54,
                 height: 4,
-                scrollStyling: {
-                  padding: {
-                    top: 6,
-                    bottom: 24,
-                  },
-                },
+                scrollStyling: { padding: { top: 6, bottom: 24 } },
               },
               widgetTheme: {
                 defaultMode: {
@@ -900,28 +872,111 @@ const swiggyResDataList = {
                 restaurants: [
                   {
                     info: {
-                      id: "334228",
-                      name: "Pizza Hut",
+                      id: "429771",
+                      name: "Burger King",
                       cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/cf9a195b-c41d-4aa4-98fc-8b031e03c735_334228.jpg",
-                      locality: "Gajuwaka",
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/25/eba3bf7e-2c9f-4405-9e0f-63c394cf69fa_429771.jpg",
+                      locality: "Exhibition Road",
                       areaName: "Gajuwaka",
                       costForTwo: "₹350 for two",
-                      cuisines: ["Pizzas"],
-                      avgRating: 4.3,
-                      parentId: "721",
-                      avgRatingString: "4.3",
-                      totalRatingsString: "9.5K+",
+                      cuisines: ["Burgers", "American"],
+                      avgRating: 4.4,
+                      parentId: "166",
+                      avgRatingString: "4.4",
+                      totalRatingsString: "17K+",
                       sla: {
-                        deliveryTime: 25,
+                        deliveryTime: 17,
                         lastMileTravel: 1.8,
                         serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
+                        slaString: "15-20 mins",
                         lastMileTravelString: "1.8 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId: "Rxawards/_CATEGORY-Burger.png",
+                            description: "Delivery!",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "ITEMS",
+                        subHeader: "AT ₹139",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "4.6",
+                          ratingCount: "2.1K+",
+                        },
+                        source: "GOOGLE",
+                        sourceIconImageId:
+                          "v1704440323/google_ratings/rating_google_tag",
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/burger-king-exhibition-road-gajuwaka-rest429771",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "637319",
+                      name: "Pizza Hut",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/22/7964dd75-5a44-4fe0-8b95-270d4c12df69_637319.JPG",
+                      locality: "Duvvada Road",
+                      areaName: "Kurmannapalem",
+                      costForTwo: "₹350 for two",
+                      cuisines: ["Pizzas"],
+                      avgRating: 4.4,
+                      parentId: "721",
+                      avgRatingString: "4.4",
+                      totalRatingsString: "4.6K+",
+                      sla: {
+                        deliveryTime: 50,
+                        lastMileTravel: 6.5,
+                        serviceability: "SERVICEABLE",
+                        slaString: "50-55 mins",
+                        lastMileTravelString: "6.5 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
@@ -952,66 +1007,60 @@ const swiggyResDataList = {
                       },
                       aggregatedDiscountInfoV3: {
                         header: "ITEMS",
-                        subHeader: "AT ₹59",
+                        subHeader: "AT ₹79",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "4.4",
-                          ratingCount: "1.1K+",
-                        },
-                        source: "GOOGLE",
-                        sourceIconImageId:
-                          "v1704440323/google_ratings/rating_google_tag",
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/pizza-hut-gajuwaka-rest334228",
+                      link: "https://www.swiggy.com/city/vizag/pizza-hut-duvvada-road-kurmannapalem-rest637319",
                       type: "WEBLINK",
                     },
                   },
                   {
                     info: {
-                      id: "429771",
-                      name: "Burger King",
+                      id: "858813",
+                      name: "McDonald's",
                       cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/25/eba3bf7e-2c9f-4405-9e0f-63c394cf69fa_429771.jpg",
-                      locality: "Exhibition Road",
-                      areaName: "Gajuwaka",
-                      costForTwo: "₹350 for two",
-                      cuisines: ["Burgers", "American"],
-                      avgRating: 4.4,
-                      parentId: "166",
-                      avgRatingString: "4.4",
-                      totalRatingsString: "17K+",
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/22/5fc6877c-ba13-4756-af05-366668d0ace2_858813.JPG",
+                      locality: "Celest Mall",
+                      areaName: "GAJUWAKA",
+                      costForTwo: "₹400 for two",
+                      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+                      avgRating: 4.3,
+                      parentId: "630",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "1.6K+",
                       sla: {
-                        deliveryTime: 15,
+                        deliveryTime: 13,
                         lastMileTravel: 1.8,
                         serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
+                        slaString: "10-15 mins",
                         lastMileTravelString: "1.8 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
+                          {
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
                           {
                             imageId: "Rxawards/_CATEGORY-Burger.png",
                             description: "Delivery!",
@@ -1026,6 +1075,13 @@ const swiggyResDataList = {
                             badgeObject: [
                               {
                                 attributes: {
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
                                   description: "Delivery!",
                                   imageId: "Rxawards/_CATEGORY-Burger.png",
                                 },
@@ -1037,36 +1093,26 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "60% OFF",
-                        subHeader: "UPTO ₹120",
+                        header: "₹80 OFF",
+                        subHeader: "ABOVE ₹349",
+                        discountTag: "FLAT DEAL",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "4.6",
-                          ratingCount: "2.1K+",
-                        },
-                        source: "GOOGLE",
-                        sourceIconImageId:
-                          "v1704440323/google_ratings/rating_google_tag",
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/burger-king-exhibition-road-gajuwaka-rest429771",
+                      link: "https://www.swiggy.com/city/vizag/mcdonalds-celest-mall-gajuwaka-rest858813",
                       type: "WEBLINK",
                     },
                   },
@@ -1087,20 +1133,20 @@ const swiggyResDataList = {
                         "Desserts",
                         "Beverages",
                       ],
-                      avgRating: 4.2,
+                      avgRating: 4.3,
                       parentId: "7918",
-                      avgRatingString: "4.2",
+                      avgRatingString: "4.3",
                       totalRatingsString: "1.9K+",
                       sla: {
-                        deliveryTime: 38,
+                        deliveryTime: 45,
                         lastMileTravel: 11.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "35-40 mins",
+                        slaString: "40-45 mins",
                         lastMileTravelString: "11.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -1120,217 +1166,20 @@ const swiggyResDataList = {
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/the-good-bowl-laxmi-nagar-simhachalam-rest237342",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
-                      id: "858813",
-                      name: "McDonald's",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/20/2cd8a29c-1acf-4aa7-a1d7-9c665b858123_858813.jpg",
-                      locality: "Celest Mall",
-                      areaName: "GAJUWAKA",
-                      costForTwo: "₹400 for two",
-                      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
-                      avgRating: 4.3,
-                      parentId: "630",
-                      avgRatingString: "4.3",
-                      totalRatingsString: "1.6K+",
-                      sla: {
-                        deliveryTime: 18,
-                        lastMileTravel: 1.8,
-                        serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
-                        lastMileTravelString: "1.8 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId:
-                              "bolt/big%20rx%20listing%2015%20mins%20.png",
-                            description: "bolt!",
-                          },
-                          {
-                            imageId: "Rxawards/_CATEGORY-Burger.png",
-                            description: "Delivery!",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "bolt!",
-                                  imageId:
-                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
-                                },
-                              },
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Burger.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹179",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/mcdonalds-celest-mall-gajuwaka-rest858813",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
-                      id: "423918",
-                      name: "NIC Ice Creams",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/cd9875d6-1fbe-43cc-9d3c-4bad01027022_423918.jpg",
-                      locality: "CMR Central Mall",
-                      areaName: "Gajuwaka",
-                      costForTwo: "₹120 for two",
-                      cuisines: ["Ice Cream", "Desserts"],
-                      avgRating: 4.7,
-                      veg: true,
-                      parentId: "6249",
-                      avgRatingString: "4.7",
-                      totalRatingsString: "5.4K+",
-                      sla: {
-                        deliveryTime: 18,
-                        lastMileTravel: 1.9,
-                        serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
-                        lastMileTravelString: "1.9 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:00:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId:
-                              "bolt/big%20rx%20listing%2015%20mins%20.png",
-                            description: "bolt!",
-                          },
-                          {
-                            imageId: "v1695133679/badges/Pure_Veg111.png",
-                            description: "pureveg",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "bolt!",
-                                  imageId:
-                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
-                                },
-                              },
-                              {
-                                attributes: {
-                                  description: "pureveg",
-                                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "66% OFF",
-                        subHeader: "UPTO ₹126",
-                        headerTypeV2: 12,
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/nic-ice-creams-cmr-central-mall-gajuwaka-rest423918",
                       type: "WEBLINK",
                     },
                   },
@@ -1357,15 +1206,15 @@ const swiggyResDataList = {
                       avgRatingString: "4.2",
                       totalRatingsString: "5.5K+",
                       sla: {
-                        deliveryTime: 42,
+                        deliveryTime: 46,
                         lastMileTravel: 11.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "40-45 mins",
+                        slaString: "45-50 mins",
                         lastMileTravelString: "11.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -1384,24 +1233,17 @@ const swiggyResDataList = {
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/faasos-wraps-rolls-and-shawarma-laxmi-nagar-simhachalam-rest237337",
@@ -1428,15 +1270,15 @@ const swiggyResDataList = {
                       avgRatingString: "4.3",
                       totalRatingsString: "1.0K+",
                       sla: {
-                        deliveryTime: 34,
+                        deliveryTime: 41,
                         lastMileTravel: 11.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
+                        slaString: "40-45 mins",
                         lastMileTravelString: "11.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -1456,24 +1298,17 @@ const swiggyResDataList = {
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/sweet-truth-cake-and-desserts-laxmi-nagar-simhachalam-rest237341",
@@ -1496,23 +1331,20 @@ const swiggyResDataList = {
                       avgRatingString: "4.3",
                       totalRatingsString: "204",
                       sla: {
-                        deliveryTime: 34,
+                        deliveryTime: 36,
                         lastMileTravel: 5,
                         serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
+                        slaString: "35-40 mins",
                         lastMileTravelString: "5.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
-                          {
-                            imageId: "newg.png",
-                            description: "Gourmet",
-                          },
+                          { imageId: "newg.png", description: "Gourmet" },
                         ],
                       },
                       isOpen: true,
@@ -1539,24 +1371,17 @@ const swiggyResDataList = {
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/cheesecakes-by-cakezone-steel-plant-kurmannapalem-rest581643",
@@ -1565,105 +1390,40 @@ const swiggyResDataList = {
                   },
                   {
                     info: {
-                      id: "67800",
-                      name: "Bunnys Family Restaurant",
-                      cloudinaryImageId: "dxknlfkvtfmx94f2cwxi",
-                      locality: "Kurmannapalem",
-                      areaName: "Kurmannapalem",
-                      costForTwo: "₹300 for two",
-                      cuisines: ["Biryani", "Andhra", "Chinese"],
-                      avgRating: 4.2,
-                      parentId: "576571",
-                      avgRatingString: "4.2",
-                      totalRatingsString: "143K+",
-                      sla: {
-                        deliveryTime: 34,
-                        lastMileTravel: 5,
-                        serviceability: "SERVICEABLE",
-                        slaString: "30-35 mins",
-                        lastMileTravelString: "5.0 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
-                        opened: true,
-                      },
-                      badges: {},
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {},
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹49",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "3.5",
-                          ratingCount: "1.2K+",
-                        },
-                        source: "GOOGLE",
-                        sourceIconImageId:
-                          "v1704440323/google_ratings/rating_google_tag",
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/bunnys-family-restaurant-kurmannapalem-rest67800",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
-                      id: "423919",
-                      name: "Grameen Kulfi",
+                      id: "790281",
+                      name: "KFC",
                       cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/16/8ce179f1-261e-4ba0-8291-ecce03f3ac7c_423919.jpg",
-                      locality: "CMR Central Mall",
-                      areaName: "Gajuwaka",
-                      costForTwo: "₹120 for two",
-                      cuisines: ["Ice Cream", "Desserts"],
-                      avgRating: 4.8,
-                      veg: true,
-                      parentId: "12175",
-                      avgRatingString: "4.8",
-                      totalRatingsString: "1.1K+",
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/31534886-98db-43a2-a6c3-3eed40fd4ff7_790281.JPG",
+                      locality: "Gajuwaka",
+                      areaName: "Vizag",
+                      costForTwo: "₹400 for two",
+                      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+                      avgRating: 4.3,
+                      parentId: "116758",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "3.4K+",
                       sla: {
-                        deliveryTime: 12,
-                        lastMileTravel: 1.9,
+                        deliveryTime: 19,
+                        lastMileTravel: 2,
                         serviceability: "SERVICEABLE",
-                        slaString: "10-15 mins",
-                        lastMileTravelString: "1.9 km",
+                        slaString: "15-20 mins",
+                        lastMileTravelString: "2.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:00:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
                           {
-                            imageId: "v1695133679/badges/Pure_Veg111.png",
-                            description: "pureveg",
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
+                          {
+                            imageId: "Rxawards/_CATEGORY-Burger.png",
+                            description: "Delivery!",
                           },
                         ],
                       },
@@ -1675,8 +1435,15 @@ const swiggyResDataList = {
                             badgeObject: [
                               {
                                 attributes: {
-                                  description: "pureveg",
-                                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Burger.png",
                                 },
                               },
                             ],
@@ -1686,106 +1453,25 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "₹125 OFF",
-                        subHeader: "ABOVE ₹399",
-                        discountTag: "FLAT DEAL",
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/grameen-kulfi-cmr-central-mall-gajuwaka-rest423919",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
-                      id: "237343",
-                      name: "The Biryani Life",
-                      cloudinaryImageId: "m1gpsv4z0jvnyjbvgd1c",
-                      locality: "laxmi nagar",
-                      areaName: "Simhachalam",
-                      costForTwo: "₹250 for two",
-                      cuisines: [
-                        "Biryani",
-                        "Mughlai",
-                        "Lucknowi",
-                        "Hyderabadi",
-                        "Kebabs",
-                        "Desserts",
-                        "Beverages",
-                      ],
-                      avgRating: 4,
-                      parentId: "8496",
-                      avgRatingString: "4.0",
-                      totalRatingsString: "1.1K+",
-                      sla: {
-                        deliveryTime: 36,
-                        lastMileTravel: 11.2,
-                        serviceability: "SERVICEABLE",
-                        slaString: "35-40 mins",
-                        lastMileTravelString: "11.2 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
-                        opened: true,
-                      },
-                      badges: {},
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {},
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
                         header: "ITEMS",
-                        subHeader: "AT ₹159",
+                        subHeader: "AT ₹53",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/the-biryani-life-laxmi-nagar-simhachalam-rest237343",
+                      link: "https://www.swiggy.com/city/vizag/kfc-gajuwaka-vizag-rest790281",
                       type: "WEBLINK",
                     },
                   },
@@ -1803,7 +1489,7 @@ const swiggyResDataList = {
                       avgRatingString: "4.4",
                       totalRatingsString: "51",
                       sla: {
-                        deliveryTime: 17,
+                        deliveryTime: 16,
                         lastMileTravel: 1.8,
                         serviceability: "SERVICEABLE",
                         slaString: "15-20 mins",
@@ -1811,7 +1497,7 @@ const swiggyResDataList = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -1827,24 +1513,17 @@ const swiggyResDataList = {
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/mcdonalds-gourmet-burger-collection-celest-mall-gajuwaka-rest858815",
@@ -1853,34 +1532,36 @@ const swiggyResDataList = {
                   },
                   {
                     info: {
-                      id: "638021",
-                      name: "Delights by INOX",
-                      cloudinaryImageId: "pzddraf9ef2lpzvxpqqb",
-                      locality: "chiatnya nagar",
+                      id: "363713",
+                      name: "KFC",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/1064b876-0a71-4e9a-bf44-8875279239d0_363713.JPG",
+                      locality: "Chaitanya nagar",
                       areaName: "Gajuwaka",
                       costForTwo: "₹400 for two",
-                      cuisines: ["Snacks"],
-                      avgRating: 4.1,
-                      parentId: "385095",
-                      avgRatingString: "4.1",
-                      totalRatingsString: "84",
+                      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
+                      avgRating: 4.3,
+                      parentId: "547",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "11K+",
                       sla: {
-                        deliveryTime: 15,
-                        lastMileTravel: 2,
+                        deliveryTime: 16,
+                        lastMileTravel: 1.8,
                         serviceability: "SERVICEABLE",
                         slaString: "15-20 mins",
-                        lastMileTravelString: "2.0 km",
+                        lastMileTravelString: "1.8 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:00:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
                           {
-                            imageId: "v1695133679/badges/Pure_Veg111.png",
-                            description: "pureveg",
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
                           },
                         ],
                       },
@@ -1892,8 +1573,9 @@ const swiggyResDataList = {
                             badgeObject: [
                               {
                                 attributes: {
-                                  description: "pureveg",
-                                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
                                 },
                               },
                             ],
@@ -1903,97 +1585,25 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "₹166 OFF",
-                        subHeader: "ABOVE ₹799",
-                        discountTag: "FLAT DEAL",
-                        headerTypeV2: 12,
+                        header: "ITEMS",
+                        subHeader: "AT ₹53",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/delights-by-inox-chiatnya-nagar-gajuwaka-rest638021",
-                      type: "WEBLINK",
-                    },
-                  },
-                  {
-                    info: {
-                      id: "861544",
-                      name: "Pastas By Pizza Hut",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/1/0462b20f-517b-4df4-b428-2d79ae7c5056_861544.jpg",
-                      locality: "CMR Mall",
-                      areaName: "Gajuwaka",
-                      costForTwo: "₹400 for two",
-                      cuisines: ["Pastas"],
-                      avgRating: 4.1,
-                      parentId: "306806",
-                      avgRatingString: "4.1",
-                      totalRatingsString: "188",
-                      sla: {
-                        deliveryTime: 27,
-                        lastMileTravel: 1.8,
-                        serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
-                        lastMileTravelString: "1.8 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
-                        opened: true,
-                      },
-                      badges: {},
-                      isOpen: true,
-                      aggregatedDiscountInfoV2: {},
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {},
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/pastas-by-pizza-hut-cmr-mall-gajuwaka-rest861544",
+                      link: "https://www.swiggy.com/city/vizag/kfc-chaitanya-nagar-gajuwaka-rest363713",
                       type: "WEBLINK",
                     },
                   },
@@ -2013,15 +1623,15 @@ const swiggyResDataList = {
                       avgRatingString: "3.9",
                       totalRatingsString: "14",
                       sla: {
-                        deliveryTime: 22,
+                        deliveryTime: 16,
                         lastMileTravel: 1.8,
                         serviceability: "SERVICEABLE",
-                        slaString: "20-25 mins",
+                        slaString: "15-20 mins",
                         lastMileTravelString: "1.8 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
@@ -2055,24 +1665,17 @@ const swiggyResDataList = {
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/mccafe-by-mcdonalds-celest-mall-gajuwaka-rest858814",
@@ -2081,36 +1684,34 @@ const swiggyResDataList = {
                   },
                   {
                     info: {
-                      id: "363713",
-                      name: "KFC",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/1064b876-0a71-4e9a-bf44-8875279239d0_363713.JPG",
-                      locality: "Chaitanya nagar",
+                      id: "638021",
+                      name: "Delights by INOX",
+                      cloudinaryImageId: "pzddraf9ef2lpzvxpqqb",
+                      locality: "chiatnya nagar",
                       areaName: "Gajuwaka",
                       costForTwo: "₹400 for two",
-                      cuisines: ["Burgers", "Fast Food", "Rolls & Wraps"],
-                      avgRating: 4.3,
-                      parentId: "547",
-                      avgRatingString: "4.3",
-                      totalRatingsString: "11K+",
+                      cuisines: ["Snacks"],
+                      avgRating: 4.1,
+                      parentId: "385095",
+                      avgRatingString: "4.1",
+                      totalRatingsString: "84",
                       sla: {
-                        deliveryTime: 15,
-                        lastMileTravel: 1.8,
+                        deliveryTime: 21,
+                        lastMileTravel: 2,
                         serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
-                        lastMileTravelString: "1.8 km",
+                        slaString: "20-25 mins",
+                        lastMileTravelString: "2.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:00:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
                           {
-                            imageId:
-                              "bolt/big%20rx%20listing%2015%20mins%20.png",
-                            description: "bolt!",
+                            imageId: "v1695133679/badges/Pure_Veg111.png",
+                            description: "pureveg",
                           },
                         ],
                       },
@@ -2122,9 +1723,8 @@ const swiggyResDataList = {
                             badgeObject: [
                               {
                                 attributes: {
-                                  description: "bolt!",
-                                  imageId:
-                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                  description: "pureveg",
+                                  imageId: "v1695133679/badges/Pure_Veg111.png",
                                 },
                               },
                             ],
@@ -2134,32 +1734,25 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "20% OFF",
-                        subHeader: "UPTO ₹50",
+                        header: "ITEMS",
+                        subHeader: "AT ₹100",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/kfc-chaitanya-nagar-gajuwaka-rest363713",
+                      link: "https://www.swiggy.com/city/vizag/delights-by-inox-chiatnya-nagar-gajuwaka-rest638021",
                       type: "WEBLINK",
                     },
                   },
@@ -2184,7 +1777,7 @@ const swiggyResDataList = {
                       avgRatingString: "4.3",
                       totalRatingsString: "4.0K+",
                       sla: {
-                        deliveryTime: 18,
+                        deliveryTime: 20,
                         lastMileTravel: 2.1,
                         serviceability: "SERVICEABLE",
                         slaString: "15-20 mins",
@@ -2192,40 +1785,51 @@ const swiggyResDataList = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
-                      badges: {},
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
+                        ],
+                      },
                       isOpen: true,
                       aggregatedDiscountInfoV2: {},
                       type: "F",
                       badgesV2: {
                         entityBadges: {
-                          imageBased: {},
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                            ],
+                          },
                           textBased: {},
                           textExtendedBadges: {},
                         },
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/subway-gajuwaka-chaitanya-nagar-rest321242",
@@ -2234,29 +1838,20 @@ const swiggyResDataList = {
                   },
                   {
                     info: {
-                      id: "696122",
-                      name: "Ovenfresh Cakes And Desserts",
+                      id: "526795",
+                      name: "CakeZone Patisserie",
                       cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/14/0b2af4fe-d647-4913-bbd4-f89f41e206ce_696122.jpg",
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/9a27c3fa-11c6-4492-a3eb-36ebdd239a74_526795.jpg",
                       locality: "Gajuwaka",
-                      areaName: "Steel Plant",
+                      areaName: "Kurmannapalem",
                       costForTwo: "₹200 for two",
-                      cuisines: [
-                        "Bakery",
-                        "Desserts",
-                        "Beverages",
-                        "Ice Cream",
-                        "Sweets",
-                        "Juices",
-                        "Bengali",
-                        "Pizzas",
-                      ],
+                      cuisines: ["Bakery", "Desserts", "Sweets", "Ice Cream"],
                       avgRating: 4.3,
-                      parentId: "1372",
+                      parentId: "7003",
                       avgRatingString: "4.3",
-                      totalRatingsString: "403",
+                      totalRatingsString: "3.2K+",
                       sla: {
-                        deliveryTime: 35,
+                        deliveryTime: 36,
                         lastMileTravel: 5,
                         serviceability: "SERVICEABLE",
                         slaString: "35-40 mins",
@@ -2264,7 +1859,7 @@ const swiggyResDataList = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -2278,33 +1873,98 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "66% OFF",
-                        subHeader: "UPTO ₹126",
-                        headerTypeV2: 12,
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/ovenfresh-cakes-and-desserts-gajuwaka-steel-plant-rest696122",
+                      link: "https://www.swiggy.com/city/vizag/cakezone-patisserie-gajuwaka-kurmannapalem-rest526795",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "686381",
+                      name: "ITC Fabelle Chocolates",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/e147db2f-4f88-47f7-9dce-f839b655ffe0_686381.jpg",
+                      locality: "Kothavalasa",
+                      areaName: "Desapatrunipalem",
+                      costForTwo: "₹600 for two",
+                      cuisines: ["Bakery", "Desserts"],
+                      avgRating: 4.9,
+                      veg: true,
+                      parentId: "471924",
+                      avgRatingString: "4.9",
+                      totalRatingsString: "52",
+                      sla: {
+                        deliveryTime: 30,
+                        lastMileTravel: 5,
+                        serviceability: "SERVICEABLE",
+                        slaString: "25-30 mins",
+                        lastMileTravelString: "5.0 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          { imageId: "newg.png", description: "Gourmet" },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "Gourmet",
+                                  imageId: "newg.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: { aggregatedRating: { rating: "--" } },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/itc-fabelle-chocolates-kothavalasa-desapatrunipalem-rest686381",
                       type: "WEBLINK",
                     },
                   },
@@ -2324,15 +1984,15 @@ const swiggyResDataList = {
                       avgRatingString: "4.3",
                       totalRatingsString: "1.0K+",
                       sla: {
-                        deliveryTime: 35,
+                        deliveryTime: 32,
                         lastMileTravel: 5,
                         serviceability: "SERVICEABLE",
-                        slaString: "35-40 mins",
+                        slaString: "30-35 mins",
                         lastMileTravelString: "5.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
@@ -2362,30 +2022,22 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "66% OFF",
-                        subHeader: "UPTO ₹126",
-                        headerTypeV2: 12,
+                        header: "60% OFF",
+                        subHeader: "UPTO ₹120",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/the-dessert-heaven-pastry-brownie-and-cakes-steel-plant-kurmannapalem-rest526798",
@@ -2394,36 +2046,105 @@ const swiggyResDataList = {
                   },
                   {
                     info: {
-                      id: "686381",
-                      name: "ITC Fabelle Chocolates",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/e147db2f-4f88-47f7-9dce-f839b655ffe0_686381.jpg",
-                      locality: "Kothavalasa",
-                      areaName: "Desapatrunipalem",
-                      costForTwo: "₹600 for two",
-                      cuisines: ["Bakery", "Desserts"],
-                      avgRating: 4.9,
-                      veg: true,
-                      parentId: "471924",
-                      avgRatingString: "4.9",
-                      totalRatingsString: "52",
+                      id: "67800",
+                      name: "Bunnys Family Restaurant",
+                      cloudinaryImageId: "dxknlfkvtfmx94f2cwxi",
+                      locality: "Kurmannapalem",
+                      areaName: "Kurmannapalem",
+                      costForTwo: "₹300 for two",
+                      cuisines: ["Biryani", "Andhra", "Chinese"],
+                      avgRating: 4.2,
+                      parentId: "576571",
+                      avgRatingString: "4.2",
+                      totalRatingsString: "143K+",
                       sla: {
-                        deliveryTime: 27,
+                        deliveryTime: 40,
                         lastMileTravel: 5,
                         serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
+                        slaString: "40-45 mins",
                         lastMileTravelString: "5.0 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {},
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {},
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "ITEMS",
+                        subHeader: "AT ₹129",
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: {
+                          rating: "3.5",
+                          ratingCount: "1.2K+",
+                        },
+                        source: "GOOGLE",
+                        sourceIconImageId:
+                          "v1704440323/google_ratings/rating_google_tag",
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/bunnys-family-restaurant-kurmannapalem-rest67800",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "390655",
+                      name: "The Red Box",
+                      cloudinaryImageId: "zlx1hsdkqe0eoayx7pmx",
+                      locality: "Gajuwaka",
+                      areaName: "Gajuwaka",
+                      costForTwo: "₹400 for two",
+                      cuisines: ["Chinese"],
+                      avgRating: 4.1,
+                      parentId: "1636",
+                      avgRatingString: "4.1",
+                      totalRatingsString: "4.0K+",
+                      sla: {
+                        deliveryTime: 34,
+                        lastMileTravel: 1.6,
+                        serviceability: "SERVICEABLE",
+                        slaString: "30-35 mins",
+                        lastMileTravelString: "1.6 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
                           {
-                            imageId: "newg.png",
-                            description: "Gourmet",
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
+                          {
+                            imageId: "Rxawards/_CATEGORY-Chinese.png",
+                            description: "Delivery!",
                           },
                         ],
                       },
@@ -2435,8 +2156,15 @@ const swiggyResDataList = {
                             badgeObject: [
                               {
                                 attributes: {
-                                  description: "Gourmet",
-                                  imageId: "newg.png",
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Chinese.png",
                                 },
                               },
                             ],
@@ -2446,33 +2174,201 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "66% OFF",
-                        subHeader: "UPTO ₹126",
-                        headerTypeV2: 12,
+                        header: "ITEMS",
+                        subHeader: "AT ₹119",
                       },
                       differentiatedUi: {
                         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          lottie: {},
-                          video: {},
-                        },
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
                       },
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
                       externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
+                        aggregatedRating: { rating: "3.8", ratingCount: "184" },
+                        source: "GOOGLE",
+                        sourceIconImageId:
+                          "v1704440323/google_ratings/rating_google_tag",
                       },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
-                      link: "https://www.swiggy.com/city/vizag/itc-fabelle-chocolates-kothavalasa-desapatrunipalem-rest686381",
+                      link: "https://www.swiggy.com/city/vizag/the-red-box-gajuwaka-rest390655",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "119985",
+                      name: "The Thick Shake Factory",
+                      cloudinaryImageId: "mircgnth4prtbt1o1zif",
+                      locality: "Gajuwaka",
+                      areaName: "Gajuwaka",
+                      costForTwo: "₹300 for two",
+                      cuisines: ["Beverages", "American"],
+                      avgRating: 4.3,
+                      parentId: "1033",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "5.6K+",
+                      sla: {
+                        deliveryTime: 18,
+                        lastMileTravel: 1.6,
+                        serviceability: "SERVICEABLE",
+                        slaString: "15-20 mins",
+                        lastMileTravelString: "1.6 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
+                          {
+                            imageId: "v1695133679/badges/Pure_Veg111.png",
+                            description: "pureveg",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      aggregatedDiscountInfoV2: {},
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
+                                  description: "pureveg",
+                                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: {
+                        aggregatedRating: { rating: "5.0", ratingCount: "3" },
+                        source: "GOOGLE",
+                        sourceIconImageId:
+                          "v1704440323/google_ratings/rating_google_tag",
+                      },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/the-thick-shake-factory-gajuwaka-rest119985",
+                      type: "WEBLINK",
+                    },
+                  },
+                  {
+                    info: {
+                      id: "196926",
+                      name: "Ibaco",
+                      cloudinaryImageId: "l0ic42djgaznawz7okxv",
+                      areaName: "Gajuwaka",
+                      costForTwo: "₹300 for two",
+                      cuisines: ["Ice Cream"],
+                      avgRating: 4.5,
+                      veg: true,
+                      parentId: "3481",
+                      avgRatingString: "4.5",
+                      totalRatingsString: "2.2K+",
+                      sla: {
+                        deliveryTime: 16,
+                        lastMileTravel: 1.1,
+                        serviceability: "SERVICEABLE",
+                        slaString: "15-20 mins",
+                        lastMileTravelString: "1.1 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
+                          {
+                            imageId: "Rxawards/_CATEGORY-Ice-creams.png",
+                            description: "Delivery!",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      aggregatedDiscountInfoV2: {},
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Ice-creams.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: { lottie: {}, video: {} },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: { aggregatedRating: { rating: "--" } },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/ibaco-gajuwaka-rest196926",
                       type: "WEBLINK",
                     },
                   },
@@ -2519,24 +2415,12 @@ const swiggyResDataList = {
                 selected: true,
                 defaultSelection: true,
               },
-              {
-                key: "deliveryTimeAsc",
-                title: "Delivery Time",
-              },
-              {
-                key: "modelBasedRatingDesc",
-                title: "Rating",
-              },
-              {
-                key: "costForTwoAsc",
-                title: "Cost: Low to High",
-              },
-              {
-                key: "costForTwoDesc",
-                title: "Cost: High to Low",
-              },
+              { key: "deliveryTimeAsc", title: "Delivery Time" },
+              { key: "modelBasedRatingDesc", title: "Rating" },
+              { key: "costForTwoAsc", title: "Cost: Low to High" },
+              { key: "costForTwoDesc", title: "Cost: High to Low" },
             ],
-            restaurantCount: 557,
+            restaurantCount: 545,
             facetList: [
               {
                 label: "Delivery Time",
@@ -2691,12 +2575,6 @@ const swiggyResDataList = {
                     openFilter: true,
                   },
                   {
-                    label: "Haleem",
-                    id: "query_haleem",
-                    analytics: {},
-                    openFilter: true,
-                  },
-                  {
                     label: "Healthy Food",
                     id: "query_healthy_food",
                     analytics: {},
@@ -2829,6 +2707,12 @@ const swiggyResDataList = {
                     openFilter: true,
                   },
                   {
+                    label: "Paan",
+                    id: "query_paan",
+                    analytics: {},
+                    openFilter: true,
+                  },
+                  {
                     label: "Pasta",
                     id: "query_pasta",
                     analytics: {},
@@ -2849,12 +2733,6 @@ const swiggyResDataList = {
                   {
                     label: "Punjabi",
                     id: "query_punjabi",
-                    analytics: {},
-                    openFilter: true,
-                  },
-                  {
-                    label: "Rajasthani",
-                    id: "query_rajasthani",
                     analytics: {},
                     openFilter: true,
                   },
@@ -3070,11 +2948,7 @@ const swiggyResDataList = {
                     analytics: {},
                     openFilter: true,
                   },
-                  {
-                    label: "Non Veg",
-                    id: "isVegfacetquery3",
-                    analytics: {},
-                  },
+                  { label: "Non Veg", id: "isVegfacetquery3", analytics: {} },
                 ],
                 viewType: "VIEW_TYPE_FLATTENED",
                 subLabel: "Filterby",
@@ -3128,113 +3002,13 @@ const swiggyResDataList = {
         card: {
           card: {
             "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
-            layout: {
-              columns: 2,
-            },
+            layout: { columns: 4 },
             id: "restaurant_grid_listing_v2",
             gridElements: {
               infoWithStyle: {
                 "@type":
                   "type.googleapis.com/swiggy.seo.widgets.v1.FoodRestaurantGridListingInfo",
                 restaurants: [
-                  {
-                    "@type":
-                      "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    info: {
-                      id: "334228",
-                      name: "Pizza Hut",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/cf9a195b-c41d-4aa4-98fc-8b031e03c735_334228.jpg",
-                      locality: "Gajuwaka",
-                      areaName: "Gajuwaka",
-                      costForTwo: "₹350 for two",
-                      cuisines: ["Pizzas"],
-                      avgRating: 4.3,
-                      parentId: "721",
-                      avgRatingString: "4.3",
-                      totalRatingsString: "9.5K+",
-                      sla: {
-                        deliveryTime: 25,
-                        lastMileTravel: 1.8,
-                        serviceability: "SERVICEABLE",
-                        slaString: "25-30 mins",
-                        lastMileTravelString: "1.8 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId: "Rxawards/_CATEGORY-Pizza.png",
-                            description: "Delivery!",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Pizza.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹59",
-                      },
-                      orderabilityCommunication: {
-                        title: {},
-                        subTitle: {},
-                        message: {},
-                        customIcon: {},
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "4.4",
-                          ratingCount: "1.1K+",
-                        },
-                        source: "GOOGLE",
-                        sourceIconImageId:
-                          "v1704440323/google_ratings/rating_google_tag",
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/pizza-hut-gajuwaka-rest334228",
-                      text: "RESTAURANT_MENU",
-                      type: "WEBLINK",
-                    },
-                    widgetId:
-                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-                  },
                   {
                     "@type":
                       "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
@@ -3252,7 +3026,7 @@ const swiggyResDataList = {
                       avgRatingString: "4.4",
                       totalRatingsString: "17K+",
                       sla: {
-                        deliveryTime: 15,
+                        deliveryTime: 17,
                         lastMileTravel: 1.8,
                         serviceability: "SERVICEABLE",
                         slaString: "15-20 mins",
@@ -3260,7 +3034,7 @@ const swiggyResDataList = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {
@@ -3290,8 +3064,8 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "60% OFF",
-                        subHeader: "UPTO ₹120",
+                        header: "ITEMS",
+                        subHeader: "AT ₹139",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -3323,7 +3097,7 @@ const swiggyResDataList = {
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/burger-king-exhibition-road-gajuwaka-rest429771",
@@ -3348,7 +3122,7 @@ const swiggyResDataList = {
                       avgRating: 4.4,
                       parentId: "2456",
                       avgRatingString: "4.4",
-                      totalRatingsString: "555",
+                      totalRatingsString: "583",
                       sla: {
                         deliveryTime: 25,
                         lastMileTravel: 1.9,
@@ -3358,22 +3132,38 @@ const swiggyResDataList = {
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
-                      badges: {},
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId: "Rxawards/_CATEGORY-Pizza.png",
+                            description: "Delivery!",
+                          },
+                        ],
+                      },
                       isOpen: true,
                       type: "F",
                       badgesV2: {
                         entityBadges: {
-                          imageBased: {},
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Pizza.png",
+                                },
+                              },
+                            ],
+                          },
                           textBased: {},
                           textExtendedBadges: {},
                         },
                       },
                       aggregatedDiscountInfoV3: {
                         header: "ITEMS",
-                        subHeader: "AT ₹119",
+                        subHeader: "AT ₹75",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -3393,19 +3183,118 @@ const swiggyResDataList = {
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       isNewlyOnboarded: true,
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/dominos-pizza-gajuwaka-mandal-the-celest-rest1024386",
+                      text: "RESTAURANT_MENU",
+                      type: "WEBLINK",
+                    },
+                    widgetId:
+                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+                  },
+                  {
+                    "@type":
+                      "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    info: {
+                      id: "858813",
+                      name: "McDonald's",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/22/5fc6877c-ba13-4756-af05-366668d0ace2_858813.JPG",
+                      locality: "Celest Mall",
+                      areaName: "GAJUWAKA",
+                      costForTwo: "₹400 for two",
+                      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+                      avgRating: 4.3,
+                      parentId: "630",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "1.6K+",
+                      sla: {
+                        deliveryTime: 13,
+                        lastMileTravel: 1.8,
+                        serviceability: "SERVICEABLE",
+                        slaString: "10-15 mins",
+                        lastMileTravelString: "1.8 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          {
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
+                          {
+                            imageId: "Rxawards/_CATEGORY-Burger.png",
+                            description: "Delivery!",
+                          },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
+                                  description: "Delivery!",
+                                  imageId: "Rxawards/_CATEGORY-Burger.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "₹80 OFF",
+                        subHeader: "ABOVE ₹349",
+                        discountTag: "FLAT DEAL",
+                      },
+                      orderabilityCommunication: {
+                        title: {},
+                        subTitle: {},
+                        message: {},
+                        customIcon: {},
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: { aggregatedRating: { rating: "--" } },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/mcdonalds-celest-mall-gajuwaka-rest858813",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -3431,20 +3320,20 @@ const swiggyResDataList = {
                         "Desserts",
                         "Beverages",
                       ],
-                      avgRating: 4.2,
+                      avgRating: 4.3,
                       parentId: "7918",
-                      avgRatingString: "4.2",
+                      avgRatingString: "4.3",
                       totalRatingsString: "1.9K+",
                       sla: {
-                        deliveryTime: 38,
+                        deliveryTime: 45,
                         lastMileTravel: 11.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "35-40 mins",
+                        slaString: "40-45 mins",
                         lastMileTravelString: "11.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -3479,233 +3368,15 @@ const swiggyResDataList = {
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/the-good-bowl-laxmi-nagar-simhachalam-rest237342",
-                      text: "RESTAURANT_MENU",
-                      type: "WEBLINK",
-                    },
-                    widgetId:
-                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-                  },
-                  {
-                    "@type":
-                      "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    info: {
-                      id: "423918",
-                      name: "NIC Ice Creams",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/cd9875d6-1fbe-43cc-9d3c-4bad01027022_423918.jpg",
-                      locality: "CMR Central Mall",
-                      areaName: "Gajuwaka",
-                      costForTwo: "₹120 for two",
-                      cuisines: ["Ice Cream", "Desserts"],
-                      avgRating: 4.7,
-                      veg: true,
-                      parentId: "6249",
-                      avgRatingString: "4.7",
-                      totalRatingsString: "5.4K+",
-                      sla: {
-                        deliveryTime: 18,
-                        lastMileTravel: 1.9,
-                        serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
-                        lastMileTravelString: "1.9 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:00:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId:
-                              "bolt/big%20rx%20listing%2015%20mins%20.png",
-                            description: "bolt!",
-                          },
-                          {
-                            imageId: "v1695133679/badges/Pure_Veg111.png",
-                            description: "pureveg",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "bolt!",
-                                  imageId:
-                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
-                                },
-                              },
-                              {
-                                attributes: {
-                                  description: "pureveg",
-                                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "66% OFF",
-                        subHeader: "UPTO ₹126",
-                        headerTypeV2: 12,
-                      },
-                      orderabilityCommunication: {
-                        title: {},
-                        subTitle: {},
-                        message: {},
-                        customIcon: {},
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/nic-ice-creams-cmr-central-mall-gajuwaka-rest423918",
-                      text: "RESTAURANT_MENU",
-                      type: "WEBLINK",
-                    },
-                    widgetId:
-                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
-                  },
-                  {
-                    "@type":
-                      "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    info: {
-                      id: "858813",
-                      name: "McDonald's",
-                      cloudinaryImageId:
-                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/20/2cd8a29c-1acf-4aa7-a1d7-9c665b858123_858813.jpg",
-                      locality: "Celest Mall",
-                      areaName: "GAJUWAKA",
-                      costForTwo: "₹400 for two",
-                      cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
-                      avgRating: 4.3,
-                      parentId: "630",
-                      avgRatingString: "4.3",
-                      totalRatingsString: "1.6K+",
-                      sla: {
-                        deliveryTime: 18,
-                        lastMileTravel: 1.8,
-                        serviceability: "SERVICEABLE",
-                        slaString: "15-20 mins",
-                        lastMileTravelString: "1.8 km",
-                        iconType: "ICON_TYPE_EMPTY",
-                      },
-                      availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
-                        opened: true,
-                      },
-                      badges: {
-                        imageBadges: [
-                          {
-                            imageId:
-                              "bolt/big%20rx%20listing%2015%20mins%20.png",
-                            description: "bolt!",
-                          },
-                          {
-                            imageId: "Rxawards/_CATEGORY-Burger.png",
-                            description: "Delivery!",
-                          },
-                        ],
-                      },
-                      isOpen: true,
-                      type: "F",
-                      badgesV2: {
-                        entityBadges: {
-                          imageBased: {
-                            badgeObject: [
-                              {
-                                attributes: {
-                                  description: "bolt!",
-                                  imageId:
-                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
-                                },
-                              },
-                              {
-                                attributes: {
-                                  description: "Delivery!",
-                                  imageId: "Rxawards/_CATEGORY-Burger.png",
-                                },
-                              },
-                            ],
-                          },
-                          textBased: {},
-                          textExtendedBadges: {},
-                        },
-                      },
-                      aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹179",
-                      },
-                      orderabilityCommunication: {
-                        title: {},
-                        subTitle: {},
-                        message: {},
-                        customIcon: {},
-                      },
-                      differentiatedUi: {
-                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        differentiatedUiMediaDetails: {
-                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                          lottie: {},
-                          video: {},
-                        },
-                      },
-                      reviewsSummary: {},
-                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
-                      ratingsDisplayPreference:
-                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    },
-                    analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
-                    },
-                    cta: {
-                      link: "https://www.swiggy.com/city/vizag/mcdonalds-celest-mall-gajuwaka-rest858813",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -3737,15 +3408,15 @@ const swiggyResDataList = {
                       avgRatingString: "4.2",
                       totalRatingsString: "5.5K+",
                       sla: {
-                        deliveryTime: 42,
+                        deliveryTime: 46,
                         lastMileTravel: 11.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "40-45 mins",
+                        slaString: "45-50 mins",
                         lastMileTravelString: "11.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:59:00",
+                        nextCloseTime: "2025-05-24 23:59:00",
                         opened: true,
                       },
                       badges: {},
@@ -3779,16 +3450,12 @@ const swiggyResDataList = {
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/faasos-wraps-rolls-and-shawarma-laxmi-nagar-simhachalam-rest237337",
@@ -3818,16 +3485,21 @@ const swiggyResDataList = {
                         deliveryTime: 20,
                         lastMileTravel: 2.2,
                         serviceability: "SERVICEABLE",
-                        slaString: "20-25 mins",
+                        slaString: "15-20 mins",
                         lastMileTravelString: "2.2 km",
                         iconType: "ICON_TYPE_EMPTY",
                       },
                       availability: {
-                        nextCloseTime: "2025-05-19 23:00:00",
+                        nextCloseTime: "2025-05-24 23:00:00",
                         opened: true,
                       },
                       badges: {
                         imageBadges: [
+                          {
+                            imageId:
+                              "bolt/big%20rx%20listing%2015%20mins%20.png",
+                            description: "bolt!",
+                          },
                           {
                             imageId: "Rxawards/_CATEGORY-North%20Indian.png",
                             description: "Delivery!",
@@ -3842,6 +3514,13 @@ const swiggyResDataList = {
                             badgeObject: [
                               {
                                 attributes: {
+                                  description: "bolt!",
+                                  imageId:
+                                    "bolt/big%20rx%20listing%2015%20mins%20.png",
+                                },
+                              },
+                              {
+                                attributes: {
                                   description: "Delivery!",
                                   imageId:
                                     "Rxawards/_CATEGORY-North%20Indian.png",
@@ -3854,8 +3533,9 @@ const swiggyResDataList = {
                         },
                       },
                       aggregatedDiscountInfoV3: {
-                        header: "ITEMS",
-                        subHeader: "AT ₹46",
+                        header: "₹100 OFF",
+                        subHeader: "ABOVE ₹199",
+                        discountTag: "FLAT DEAL",
                       },
                       orderabilityCommunication: {
                         title: {},
@@ -3874,19 +3554,183 @@ const swiggyResDataList = {
                       reviewsSummary: {},
                       displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       restaurantOfferPresentationInfo: {},
-                      externalRatings: {
-                        aggregatedRating: {
-                          rating: "--",
-                        },
-                      },
+                      externalRatings: { aggregatedRating: { rating: "--" } },
                       ratingsDisplayPreference:
                         "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
                     },
                     analytics: {
-                      context: "seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6",
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
                     },
                     cta: {
                       link: "https://www.swiggy.com/city/vizag/eaters-stop-sramika-nagar-gajuwaka-rest450148",
+                      text: "RESTAURANT_MENU",
+                      type: "WEBLINK",
+                    },
+                    widgetId:
+                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+                  },
+                  {
+                    "@type":
+                      "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    info: {
+                      id: "237341",
+                      name: "Sweet Truth - Cake and Desserts",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/d074391f-6e84-4d29-9620-853aef94a2d3_237341.jpg",
+                      locality: "laxmi nagar",
+                      areaName: "Simhachalam",
+                      costForTwo: "₹450 for two",
+                      cuisines: [
+                        "Desserts",
+                        "Ice Cream",
+                        "Bakery",
+                        "Beverages",
+                      ],
+                      avgRating: 4.3,
+                      parentId: "4444",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "1.0K+",
+                      sla: {
+                        deliveryTime: 41,
+                        lastMileTravel: 11.2,
+                        serviceability: "SERVICEABLE",
+                        slaString: "40-45 mins",
+                        lastMileTravelString: "11.2 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {},
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {},
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "₹125 OFF",
+                        subHeader: "ABOVE ₹599",
+                        discountTag: "FLAT DEAL",
+                      },
+                      orderabilityCommunication: {
+                        title: {},
+                        subTitle: {},
+                        message: {},
+                        customIcon: {},
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: { aggregatedRating: { rating: "--" } },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/sweet-truth-cake-and-desserts-laxmi-nagar-simhachalam-rest237341",
+                      text: "RESTAURANT_MENU",
+                      type: "WEBLINK",
+                    },
+                    widgetId:
+                      "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+                  },
+                  {
+                    "@type":
+                      "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    info: {
+                      id: "581643",
+                      name: "Cheesecakes By CakeZone",
+                      cloudinaryImageId:
+                        "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/7987336f-5272-4fa6-87ae-28fb32fdd6fb_581643.jpg",
+                      locality: "Steel Plant",
+                      areaName: "Kurmannapalem",
+                      costForTwo: "₹200 for two",
+                      cuisines: ["Bakery", "Desserts"],
+                      avgRating: 4.3,
+                      veg: true,
+                      parentId: "348057",
+                      avgRatingString: "4.3",
+                      totalRatingsString: "204",
+                      sla: {
+                        deliveryTime: 36,
+                        lastMileTravel: 5,
+                        serviceability: "SERVICEABLE",
+                        slaString: "35-40 mins",
+                        lastMileTravelString: "5.0 km",
+                        iconType: "ICON_TYPE_EMPTY",
+                      },
+                      availability: {
+                        nextCloseTime: "2025-05-24 23:59:00",
+                        opened: true,
+                      },
+                      badges: {
+                        imageBadges: [
+                          { imageId: "newg.png", description: "Gourmet" },
+                        ],
+                      },
+                      isOpen: true,
+                      type: "F",
+                      badgesV2: {
+                        entityBadges: {
+                          imageBased: {
+                            badgeObject: [
+                              {
+                                attributes: {
+                                  description: "Gourmet",
+                                  imageId: "newg.png",
+                                },
+                              },
+                            ],
+                          },
+                          textBased: {},
+                          textExtendedBadges: {},
+                        },
+                      },
+                      aggregatedDiscountInfoV3: {
+                        header: "ITEMS",
+                        subHeader: "AT ₹69",
+                      },
+                      orderabilityCommunication: {
+                        title: {},
+                        subTitle: {},
+                        message: {},
+                        customIcon: {},
+                      },
+                      differentiatedUi: {
+                        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        differentiatedUiMediaDetails: {
+                          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+                          lottie: {},
+                          video: {},
+                        },
+                      },
+                      reviewsSummary: {},
+                      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      restaurantOfferPresentationInfo: {},
+                      externalRatings: { aggregatedRating: { rating: "--" } },
+                      ratingsDisplayPreference:
+                        "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                    },
+                    analytics: {
+                      context: "seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512",
+                    },
+                    cta: {
+                      link: "https://www.swiggy.com/city/vizag/cheesecakes-by-cakezone-steel-plant-kurmannapalem-rest581643",
                       text: "RESTAURANT_MENU",
                       type: "WEBLINK",
                     },
@@ -4231,34 +4075,16 @@ const swiggyResDataList = {
                 text: "Bangalore",
                 link: "https://www.swiggy.com/city/bangalore",
               },
-              {
-                text: "Gurgaon",
-                link: "https://www.swiggy.com/city/gurgaon",
-              },
+              { text: "Gurgaon", link: "https://www.swiggy.com/city/gurgaon" },
               {
                 text: "Hyderabad",
                 link: "https://www.swiggy.com/city/hyderabad",
               },
-              {
-                text: "Delhi",
-                link: "https://www.swiggy.com/city/delhi",
-              },
-              {
-                text: "Mumbai",
-                link: "https://www.swiggy.com/city/mumbai",
-              },
-              {
-                text: "Pune",
-                link: "https://www.swiggy.com/city/pune",
-              },
-              {
-                text: "Kolkata",
-                link: "https://www.swiggy.com/city/kolkata",
-              },
-              {
-                text: "Chennai",
-                link: "https://www.swiggy.com/city/chennai",
-              },
+              { text: "Delhi", link: "https://www.swiggy.com/city/delhi" },
+              { text: "Mumbai", link: "https://www.swiggy.com/city/mumbai" },
+              { text: "Pune", link: "https://www.swiggy.com/city/pune" },
+              { text: "Kolkata", link: "https://www.swiggy.com/city/kolkata" },
+              { text: "Chennai", link: "https://www.swiggy.com/city/chennai" },
               {
                 text: "Ahmedabad",
                 link: "https://www.swiggy.com/city/ahmedabad",
@@ -4267,90 +4093,48 @@ const swiggyResDataList = {
                 text: "Chandigarh",
                 link: "https://www.swiggy.com/city/chandigarh",
               },
-              {
-                text: "Jaipur",
-                link: "https://www.swiggy.com/city/jaipur",
-              },
-              {
-                text: "Kochi",
-                link: "https://www.swiggy.com/city/kochi",
-              },
+              { text: "Jaipur", link: "https://www.swiggy.com/city/jaipur" },
+              { text: "Kochi", link: "https://www.swiggy.com/city/kochi" },
               {
                 text: "Coimbatore",
                 link: "https://www.swiggy.com/city/coimbatore",
               },
-              {
-                text: "Lucknow",
-                link: "https://www.swiggy.com/city/lucknow",
-              },
-              {
-                text: "Nagpur",
-                link: "https://www.swiggy.com/city/nagpur",
-              },
+              { text: "Lucknow", link: "https://www.swiggy.com/city/lucknow" },
+              { text: "Nagpur", link: "https://www.swiggy.com/city/nagpur" },
               {
                 text: "Vadodara",
                 link: "https://www.swiggy.com/city/vadodara",
               },
-              {
-                text: "Indore",
-                link: "https://www.swiggy.com/city/indore",
-              },
+              { text: "Indore", link: "https://www.swiggy.com/city/indore" },
               {
                 text: "Guwahati",
                 link: "https://www.swiggy.com/city/guwahati",
               },
-              {
-                text: "Vizag",
-                link: "https://www.swiggy.com/city/vizag",
-              },
-              {
-                text: "Surat",
-                link: "https://www.swiggy.com/city/surat",
-              },
+              { text: "Vizag", link: "https://www.swiggy.com/city/vizag" },
+              { text: "Surat", link: "https://www.swiggy.com/city/surat" },
               {
                 text: "Dehradun",
                 link: "https://www.swiggy.com/city/dehradun",
               },
-              {
-                text: "Noida",
-                link: "https://www.swiggy.com/city/noida",
-              },
+              { text: "Noida", link: "https://www.swiggy.com/city/noida" },
               {
                 text: "Ludhiana",
                 link: "https://www.swiggy.com/city/ludhiana",
               },
-              {
-                text: "Trichy",
-                link: "https://www.swiggy.com/city/trichy",
-              },
+              { text: "Trichy", link: "https://www.swiggy.com/city/trichy" },
               {
                 text: "Vijayawada",
                 link: "https://www.swiggy.com/city/vijayawada",
               },
-              {
-                text: "Kanpur",
-                link: "https://www.swiggy.com/city/kanpur",
-              },
-              {
-                text: "Mysore",
-                link: "https://www.swiggy.com/city/mysore",
-              },
-              {
-                text: "Nashik",
-                link: "https://www.swiggy.com/city/nashik",
-              },
-              {
-                text: "Udaipur",
-                link: "https://www.swiggy.com/city/udaipur",
-              },
+              { text: "Kanpur", link: "https://www.swiggy.com/city/kanpur" },
+              { text: "Mysore", link: "https://www.swiggy.com/city/mysore" },
+              { text: "Nashik", link: "https://www.swiggy.com/city/nashik" },
+              { text: "Udaipur", link: "https://www.swiggy.com/city/udaipur" },
               {
                 text: "Pondicherry",
                 link: "https://www.swiggy.com/city/pondicherry",
               },
-              {
-                text: "Agra",
-                link: "https://www.swiggy.com/city/agra",
-              },
+              { text: "Agra", link: "https://www.swiggy.com/city/agra" },
               {
                 text: "Aurangabad",
                 link: "https://www.swiggy.com/city/aurangabad",
@@ -4359,22 +4143,13 @@ const swiggyResDataList = {
                 text: "Jalandhar",
                 link: "https://www.swiggy.com/city/jalandhar",
               },
-              {
-                text: "Kota",
-                link: "https://www.swiggy.com/city/kota",
-              },
-              {
-                text: "Madurai",
-                link: "https://www.swiggy.com/city/madurai",
-              },
+              { text: "Kota", link: "https://www.swiggy.com/city/kota" },
+              { text: "Madurai", link: "https://www.swiggy.com/city/madurai" },
               {
                 text: "Allahabad",
                 link: "https://www.swiggy.com/city/allahabad",
               },
-              {
-                text: "Manipal",
-                link: "https://www.swiggy.com/city/manipal",
-              },
+              { text: "Manipal", link: "https://www.swiggy.com/city/manipal" },
               {
                 text: "Amritsar",
                 link: "https://www.swiggy.com/city/amritsar",
@@ -4383,34 +4158,16 @@ const swiggyResDataList = {
                 text: "Bareilly",
                 link: "https://www.swiggy.com/city/bareilly",
               },
-              {
-                text: "Meerut",
-                link: "https://www.swiggy.com/city/meerut",
-              },
-              {
-                text: "Bhopal",
-                link: "https://www.swiggy.com/city/bhopal",
-              },
-              {
-                text: "Ooty",
-                link: "https://www.swiggy.com/city/ooty",
-              },
+              { text: "Meerut", link: "https://www.swiggy.com/city/meerut" },
+              { text: "Bhopal", link: "https://www.swiggy.com/city/bhopal" },
+              { text: "Ooty", link: "https://www.swiggy.com/city/ooty" },
               {
                 text: "Bhubaneswar",
                 link: "https://www.swiggy.com/city/bhubaneswar",
               },
-              {
-                text: "Raipur",
-                link: "https://www.swiggy.com/city/raipur",
-              },
-              {
-                text: "Bikaner",
-                link: "https://www.swiggy.com/city/bikaner",
-              },
-              {
-                text: "Rajkot",
-                link: "https://www.swiggy.com/city/rajkot",
-              },
+              { text: "Raipur", link: "https://www.swiggy.com/city/raipur" },
+              { text: "Bikaner", link: "https://www.swiggy.com/city/bikaner" },
+              { text: "Rajkot", link: "https://www.swiggy.com/city/rajkot" },
               {
                 text: "Kozhikode",
                 link: "https://www.swiggy.com/city/kozhikode",
@@ -4419,14 +4176,8 @@ const swiggyResDataList = {
                 text: "Central Goa",
                 link: "https://www.swiggy.com/city/central-goa",
               },
-              {
-                text: "Sirsa",
-                link: "https://www.swiggy.com/city/sirsa",
-              },
-              {
-                text: "Gwalior",
-                link: "https://www.swiggy.com/city/gwalior",
-              },
+              { text: "Sirsa", link: "https://www.swiggy.com/city/sirsa" },
+              { text: "Gwalior", link: "https://www.swiggy.com/city/gwalior" },
               {
                 text: "Thrissur",
                 link: "https://www.swiggy.com/city/thrissur",
@@ -4439,14 +4190,8 @@ const swiggyResDataList = {
                 text: "Tirupati",
                 link: "https://www.swiggy.com/city/tirupati",
               },
-              {
-                text: "Tirupur",
-                link: "https://www.swiggy.com/city/tirupur",
-              },
-              {
-                text: "Vellore",
-                link: "https://www.swiggy.com/city/vellore",
-              },
+              { text: "Tirupur", link: "https://www.swiggy.com/city/tirupur" },
+              { text: "Vellore", link: "https://www.swiggy.com/city/vellore" },
               {
                 text: "Thiruvananthapuram",
                 link: "https://www.swiggy.com/city/thiruvananthapuram",
@@ -4463,34 +4208,16 @@ const swiggyResDataList = {
                 text: "Mangaluru",
                 link: "https://www.swiggy.com/city/mangaluru",
               },
-              {
-                text: "Patna",
-                link: "https://www.swiggy.com/city/patna",
-              },
-              {
-                text: "Ranchi",
-                link: "https://www.swiggy.com/city/ranchi",
-              },
+              { text: "Patna", link: "https://www.swiggy.com/city/patna" },
+              { text: "Ranchi", link: "https://www.swiggy.com/city/ranchi" },
               {
                 text: "Faridabad",
                 link: "https://www.swiggy.com/city/faridabad",
               },
-              {
-                text: "Guntur",
-                link: "https://www.swiggy.com/city/guntur",
-              },
-              {
-                text: "Ujjain",
-                link: "https://www.swiggy.com/city/ujjain",
-              },
-              {
-                text: "Patiala",
-                link: "https://www.swiggy.com/city/patiala",
-              },
-              {
-                text: "Karnal",
-                link: "https://www.swiggy.com/city/karnal",
-              },
+              { text: "Guntur", link: "https://www.swiggy.com/city/guntur" },
+              { text: "Ujjain", link: "https://www.swiggy.com/city/ujjain" },
+              { text: "Patiala", link: "https://www.swiggy.com/city/patiala" },
+              { text: "Karnal", link: "https://www.swiggy.com/city/karnal" },
               {
                 text: "Kakinada",
                 link: "https://www.swiggy.com/city/kakinada",
@@ -4503,50 +4230,23 @@ const swiggyResDataList = {
                 text: "Bilaspur",
                 link: "https://www.swiggy.com/city/bilaspur",
               },
-              {
-                text: "Bhilai",
-                link: "https://www.swiggy.com/city/bhilai",
-              },
-              {
-                text: "Anand",
-                link: "https://www.swiggy.com/city/anand",
-              },
+              { text: "Bhilai", link: "https://www.swiggy.com/city/bhilai" },
+              { text: "Anand", link: "https://www.swiggy.com/city/anand" },
               {
                 text: "Bhavnagar",
                 link: "https://www.swiggy.com/city/bhavnagar",
               },
-              {
-                text: "Jammu",
-                link: "https://www.swiggy.com/city/jammu",
-              },
-              {
-                text: "Muktsar",
-                link: "https://www.swiggy.com/city/muktsar",
-              },
-              {
-                text: "Panipat",
-                link: "https://www.swiggy.com/city/panipat",
-              },
+              { text: "Jammu", link: "https://www.swiggy.com/city/jammu" },
+              { text: "Muktsar", link: "https://www.swiggy.com/city/muktsar" },
+              { text: "Panipat", link: "https://www.swiggy.com/city/panipat" },
               {
                 text: "Jamshedpur",
                 link: "https://www.swiggy.com/city/jamshedpur",
               },
-              {
-                text: "Dhanbad",
-                link: "https://www.swiggy.com/city/dhanbad",
-              },
-              {
-                text: "Bokaro",
-                link: "https://www.swiggy.com/city/bokaro",
-              },
-              {
-                text: "Hubli",
-                link: "https://www.swiggy.com/city/hubli",
-              },
-              {
-                text: "Belgaum",
-                link: "https://www.swiggy.com/city/belgaum",
-              },
+              { text: "Dhanbad", link: "https://www.swiggy.com/city/dhanbad" },
+              { text: "Bokaro", link: "https://www.swiggy.com/city/bokaro" },
+              { text: "Hubli", link: "https://www.swiggy.com/city/hubli" },
+              { text: "Belgaum", link: "https://www.swiggy.com/city/belgaum" },
               {
                 text: "Jabalpur",
                 link: "https://www.swiggy.com/city/jabalpur",
@@ -4555,42 +4255,21 @@ const swiggyResDataList = {
                 text: "Kolhapur",
                 link: "https://www.swiggy.com/city/kolhapur",
               },
-              {
-                text: "Solapur",
-                link: "https://www.swiggy.com/city/solapur",
-              },
+              { text: "Solapur", link: "https://www.swiggy.com/city/solapur" },
               {
                 text: "Shillong",
                 link: "https://www.swiggy.com/city/shillong",
               },
-              {
-                text: "Cuttack",
-                link: "https://www.swiggy.com/city/cuttack",
-              },
-              {
-                text: "Aligarh",
-                link: "https://www.swiggy.com/city/aligarh",
-              },
-              {
-                text: "Salem",
-                link: "https://www.swiggy.com/city/salem",
-              },
+              { text: "Cuttack", link: "https://www.swiggy.com/city/cuttack" },
+              { text: "Aligarh", link: "https://www.swiggy.com/city/aligarh" },
+              { text: "Salem", link: "https://www.swiggy.com/city/salem" },
               {
                 text: "Agartala",
                 link: "https://www.swiggy.com/city/agartala",
               },
-              {
-                text: "Jodhpur",
-                link: "https://www.swiggy.com/city/jodhpur",
-              },
-              {
-                text: "Ajmer",
-                link: "https://www.swiggy.com/city/ajmer",
-              },
-              {
-                text: "Jhansi",
-                link: "https://www.swiggy.com/city/jhansi",
-              },
+              { text: "Jodhpur", link: "https://www.swiggy.com/city/jodhpur" },
+              { text: "Ajmer", link: "https://www.swiggy.com/city/ajmer" },
+              { text: "Jhansi", link: "https://www.swiggy.com/city/jhansi" },
               {
                 text: "Gorakhpur",
                 link: "https://www.swiggy.com/city/gorakhpur",
@@ -4599,14 +4278,8 @@ const swiggyResDataList = {
                 text: "Thanjavur",
                 link: "https://www.swiggy.com/city/thanjavur",
               },
-              {
-                text: "Erode",
-                link: "https://www.swiggy.com/city/erode",
-              },
-              {
-                text: "Nellore",
-                link: "https://www.swiggy.com/city/nellore",
-              },
+              { text: "Erode", link: "https://www.swiggy.com/city/erode" },
+              { text: "Nellore", link: "https://www.swiggy.com/city/nellore" },
               {
                 text: "Rourkela",
                 link: "https://www.swiggy.com/city/rourkela",
@@ -4615,10 +4288,7 @@ const swiggyResDataList = {
                 text: "Anantapur",
                 link: "https://www.swiggy.com/city/anantapur",
               },
-              {
-                text: "Kurnool",
-                link: "https://www.swiggy.com/city/kurnool",
-              },
+              { text: "Kurnool", link: "https://www.swiggy.com/city/kurnool" },
               {
                 text: "Ahmednagar",
                 link: "https://www.swiggy.com/city/ahmednagar",
@@ -4627,14 +4297,8 @@ const swiggyResDataList = {
                 text: "Phagwara",
                 link: "https://www.swiggy.com/city/phagwara",
               },
-              {
-                text: "Ambala",
-                link: "https://www.swiggy.com/city/ambala",
-              },
-              {
-                text: "Ballari",
-                link: "https://www.swiggy.com/city/ballari",
-              },
+              { text: "Ambala", link: "https://www.swiggy.com/city/ambala" },
+              { text: "Ballari", link: "https://www.swiggy.com/city/ballari" },
               {
                 text: "Saharanpur",
                 link: "https://www.swiggy.com/city/saharanpur",
@@ -4647,10 +4311,7 @@ const swiggyResDataList = {
                 text: "Bathinda",
                 link: "https://www.swiggy.com/city/bathinda",
               },
-              {
-                text: "Mathura",
-                link: "https://www.swiggy.com/city/mathura",
-              },
+              { text: "Mathura", link: "https://www.swiggy.com/city/mathura" },
               {
                 text: "Haridwar",
                 link: "https://www.swiggy.com/city/haridwar",
@@ -4659,10 +4320,7 @@ const swiggyResDataList = {
                 text: "Ratnagiri",
                 link: "https://www.swiggy.com/city/ratnagiri",
               },
-              {
-                text: "Sangli",
-                link: "https://www.swiggy.com/city/sangli",
-              },
+              { text: "Sangli", link: "https://www.swiggy.com/city/sangli" },
               {
                 text: "Amravati",
                 link: "https://www.swiggy.com/city/amravati",
@@ -4679,10 +4337,7 @@ const swiggyResDataList = {
                 text: "KanyaKumari",
                 link: "https://www.swiggy.com/city/kanyakumari",
               },
-              {
-                text: "Kadapa",
-                link: "https://www.swiggy.com/city/kadapa",
-              },
+              { text: "Kadapa", link: "https://www.swiggy.com/city/kadapa" },
               {
                 text: "Nizamabad",
                 link: "https://www.swiggy.com/city/nizamabad",
@@ -4695,134 +4350,62 @@ const swiggyResDataList = {
                 text: "Davanagere",
                 link: "https://www.swiggy.com/city/davanagere",
               },
-              {
-                text: "Roorkee",
-                link: "https://www.swiggy.com/city/roorkee",
-              },
-              {
-                text: "Nanded",
-                link: "https://www.swiggy.com/city/nanded",
-              },
-              {
-                text: "Rewa",
-                link: "https://www.swiggy.com/city/rewa",
-              },
-              {
-                text: "Satna",
-                link: "https://www.swiggy.com/city/satna",
-              },
-              {
-                text: "Shimla",
-                link: "https://www.swiggy.com/city/shimla",
-              },
+              { text: "Roorkee", link: "https://www.swiggy.com/city/roorkee" },
+              { text: "Nanded", link: "https://www.swiggy.com/city/nanded" },
+              { text: "Rewa", link: "https://www.swiggy.com/city/rewa" },
+              { text: "Satna", link: "https://www.swiggy.com/city/satna" },
+              { text: "Shimla", link: "https://www.swiggy.com/city/shimla" },
               {
                 text: "Muzaffarpur",
                 link: "https://www.swiggy.com/city/muzaffarpur",
               },
-              {
-                text: "Valsad",
-                link: "https://www.swiggy.com/city/valsad",
-              },
-              {
-                text: "Vapi",
-                link: "https://www.swiggy.com/city/vapi",
-              },
-              {
-                text: "Chhapra",
-                link: "https://www.swiggy.com/city/chhapra",
-              },
+              { text: "Valsad", link: "https://www.swiggy.com/city/valsad" },
+              { text: "Vapi", link: "https://www.swiggy.com/city/vapi" },
+              { text: "Chhapra", link: "https://www.swiggy.com/city/chhapra" },
               {
                 text: "Dharamshala",
                 link: "https://www.swiggy.com/city/dharamshala",
               },
-              {
-                text: "Kollam",
-                link: "https://www.swiggy.com/city/kollam",
-              },
-              {
-                text: "Silchar",
-                link: "https://www.swiggy.com/city/silchar",
-              },
+              { text: "Kollam", link: "https://www.swiggy.com/city/kollam" },
+              { text: "Silchar", link: "https://www.swiggy.com/city/silchar" },
               {
                 text: "Alappuzha",
                 link: "https://www.swiggy.com/city/alappuzha",
               },
-              {
-                text: "Sonipat",
-                link: "https://www.swiggy.com/city/sonipat",
-              },
-              {
-                text: "Rohtak",
-                link: "https://www.swiggy.com/city/rohtak",
-              },
-              {
-                text: "Mehsana",
-                link: "https://www.swiggy.com/city/mehsana",
-              },
-              {
-                text: "Kullu",
-                link: "https://www.swiggy.com/city/kullu",
-              },
-              {
-                text: "Dhule",
-                link: "https://www.swiggy.com/city/dhule",
-              },
-              {
-                text: "Dharwad",
-                link: "https://www.swiggy.com/city/dharwad",
-              },
-              {
-                text: "Latur",
-                link: "https://www.swiggy.com/city/latur",
-              },
+              { text: "Sonipat", link: "https://www.swiggy.com/city/sonipat" },
+              { text: "Rohtak", link: "https://www.swiggy.com/city/rohtak" },
+              { text: "Mehsana", link: "https://www.swiggy.com/city/mehsana" },
+              { text: "Kullu", link: "https://www.swiggy.com/city/kullu" },
+              { text: "Dhule", link: "https://www.swiggy.com/city/dhule" },
+              { text: "Dharwad", link: "https://www.swiggy.com/city/dharwad" },
+              { text: "Latur", link: "https://www.swiggy.com/city/latur" },
               {
                 text: "Vizianagaram",
                 link: "https://www.swiggy.com/city/vizianagaram",
               },
-              {
-                text: "Khammam",
-                link: "https://www.swiggy.com/city/khammam",
-              },
-              {
-                text: "Hampi",
-                link: "https://www.swiggy.com/city/hampi",
-              },
+              { text: "Khammam", link: "https://www.swiggy.com/city/khammam" },
+              { text: "Hampi", link: "https://www.swiggy.com/city/hampi" },
               {
                 text: "Nainital",
                 link: "https://www.swiggy.com/city/nainital",
               },
-              {
-                text: "Akola",
-                link: "https://www.swiggy.com/city/akola",
-              },
+              { text: "Akola", link: "https://www.swiggy.com/city/akola" },
               {
                 text: "Kalaburagi",
                 link: "https://www.swiggy.com/city/kalaburagi",
               },
-              {
-                text: "Gaya",
-                link: "https://www.swiggy.com/city/gaya",
-              },
+              { text: "Gaya", link: "https://www.swiggy.com/city/gaya" },
               {
                 text: "Muzaffarnagar",
                 link: "https://www.swiggy.com/city/muzaffarnagar",
               },
-              {
-                text: "Dewas",
-                link: "https://www.swiggy.com/city/dewas",
-              },
-              {
-                text: "Korba",
-                link: "https://www.swiggy.com/city/korba",
-              },
+              { text: "Dewas", link: "https://www.swiggy.com/city/dewas" },
+              { text: "Korba", link: "https://www.swiggy.com/city/korba" },
               {
                 text: "Mussoorie",
                 link: "https://www.swiggy.com/city/mussoorie",
               },
-              {
-                text: "Jalgaon",
-                link: "https://www.swiggy.com/city/jalgaon",
-              },
+              { text: "Jalgaon", link: "https://www.swiggy.com/city/jalgaon" },
               {
                 text: "Yamuna Nagar",
                 link: "https://www.swiggy.com/city/yamuna-nagar",
@@ -4831,58 +4414,22 @@ const swiggyResDataList = {
                 text: "Bhagalpur",
                 link: "https://www.swiggy.com/city/bhagalpur",
               },
-              {
-                text: "Hapur",
-                link: "https://www.swiggy.com/city/hapur",
-              },
-              {
-                text: "Morena",
-                link: "https://www.swiggy.com/city/morena",
-              },
-              {
-                text: "Hassan",
-                link: "https://www.swiggy.com/city/hassan",
-              },
-              {
-                text: "Hisar",
-                link: "https://www.swiggy.com/city/hisar",
-              },
-              {
-                text: "Godhra",
-                link: "https://www.swiggy.com/city/godhra",
-              },
-              {
-                text: "Kolar ",
-                link: "https://www.swiggy.com/city/kolar",
-              },
-              {
-                text: "Rampur",
-                link: "https://www.swiggy.com/city/rampur",
-              },
-              {
-                text: "Sitapur",
-                link: "https://www.swiggy.com/city/sitapur",
-              },
-              {
-                text: "Etawah",
-                link: "https://www.swiggy.com/city/etawah",
-              },
+              { text: "Hapur", link: "https://www.swiggy.com/city/hapur" },
+              { text: "Morena", link: "https://www.swiggy.com/city/morena" },
+              { text: "Hassan", link: "https://www.swiggy.com/city/hassan" },
+              { text: "Hisar", link: "https://www.swiggy.com/city/hisar" },
+              { text: "Godhra", link: "https://www.swiggy.com/city/godhra" },
+              { text: "Kolar ", link: "https://www.swiggy.com/city/kolar" },
+              { text: "Rampur", link: "https://www.swiggy.com/city/rampur" },
+              { text: "Sitapur", link: "https://www.swiggy.com/city/sitapur" },
+              { text: "Etawah", link: "https://www.swiggy.com/city/etawah" },
               {
                 text: "Porbandar",
                 link: "https://www.swiggy.com/city/porbandar",
               },
-              {
-                text: "Nadiad",
-                link: "https://www.swiggy.com/city/nadiad",
-              },
-              {
-                text: "Sagar",
-                link: "https://www.swiggy.com/city/sagar",
-              },
-              {
-                text: "Morbi",
-                link: "https://www.swiggy.com/city/morbi",
-              },
+              { text: "Nadiad", link: "https://www.swiggy.com/city/nadiad" },
+              { text: "Sagar", link: "https://www.swiggy.com/city/sagar" },
+              { text: "Morbi", link: "https://www.swiggy.com/city/morbi" },
               {
                 text: "Chhindwara",
                 link: "https://www.swiggy.com/city/chhindwara",
@@ -4899,18 +4446,9 @@ const swiggyResDataList = {
                 text: "Thoothukudi",
                 link: "https://www.swiggy.com/city/thoothukudi",
               },
-              {
-                text: "Katni",
-                link: "https://www.swiggy.com/city/katni",
-              },
-              {
-                text: "Khandwa",
-                link: "https://www.swiggy.com/city/khandwa",
-              },
-              {
-                text: "Eluru",
-                link: "https://www.swiggy.com/city/eluru",
-              },
+              { text: "Katni", link: "https://www.swiggy.com/city/katni" },
+              { text: "Khandwa", link: "https://www.swiggy.com/city/khandwa" },
+              { text: "Eluru", link: "https://www.swiggy.com/city/eluru" },
               {
                 text: "Malappuram",
                 link: "https://www.swiggy.com/city/malappuram",
@@ -4919,18 +4457,9 @@ const swiggyResDataList = {
                 text: "Dibrugarh",
                 link: "https://www.swiggy.com/city/dibrugarh",
               },
-              {
-                text: "Deoghar",
-                link: "https://www.swiggy.com/city/deoghar",
-              },
-              {
-                text: "Khanna",
-                link: "https://www.swiggy.com/city/khanna",
-              },
-              {
-                text: "Bidar",
-                link: "https://www.swiggy.com/city/bidar",
-              },
+              { text: "Deoghar", link: "https://www.swiggy.com/city/deoghar" },
+              { text: "Khanna", link: "https://www.swiggy.com/city/khanna" },
+              { text: "Bidar", link: "https://www.swiggy.com/city/bidar" },
               {
                 text: "Anantnag",
                 link: "https://www.swiggy.com/city/anantnag",
@@ -4963,46 +4492,28 @@ const swiggyResDataList = {
                 text: "Shahjahanpur",
                 link: "https://www.swiggy.com/city/shahjahanpur",
               },
-              {
-                text: "Beed",
-                link: "https://www.swiggy.com/city/beed",
-              },
+              { text: "Beed", link: "https://www.swiggy.com/city/beed" },
               {
                 text: "Junagadh",
                 link: "https://www.swiggy.com/city/junagadh",
               },
-              {
-                text: "Asansol",
-                link: "https://www.swiggy.com/city/asansol",
-              },
-              {
-                text: "Beawar",
-                link: "https://www.swiggy.com/city/beawar",
-              },
+              { text: "Asansol", link: "https://www.swiggy.com/city/asansol" },
+              { text: "Beawar", link: "https://www.swiggy.com/city/beawar" },
               {
                 text: "Kishangarh",
                 link: "https://www.swiggy.com/city/kishangarh",
               },
-              {
-                text: "Budhwal",
-                link: "https://www.swiggy.com/city/budhwal",
-              },
+              { text: "Budhwal", link: "https://www.swiggy.com/city/budhwal" },
               {
                 text: "Parbhani",
                 link: "https://www.swiggy.com/city/parbhani",
               },
-              {
-                text: "Gondia",
-                link: "https://www.swiggy.com/city/gondia",
-              },
+              { text: "Gondia", link: "https://www.swiggy.com/city/gondia" },
               {
                 text: "Ichalkaranji",
                 link: "https://www.swiggy.com/city/ichalkaranji",
               },
-              {
-                text: "Jalna",
-                link: "https://www.swiggy.com/city/jalna",
-              },
+              { text: "Jalna", link: "https://www.swiggy.com/city/jalna" },
               {
                 text: "Yavatmal",
                 link: "https://www.swiggy.com/city/yavatmal",
@@ -5011,18 +4522,9 @@ const swiggyResDataList = {
                 text: "Shivpuri",
                 link: "https://www.swiggy.com/city/shivpuri",
               },
-              {
-                text: "Moga",
-                link: "https://www.swiggy.com/city/moga",
-              },
-              {
-                text: "Abohar",
-                link: "https://www.swiggy.com/city/abohar",
-              },
-              {
-                text: "Adoni",
-                link: "https://www.swiggy.com/city/adoni",
-              },
+              { text: "Moga", link: "https://www.swiggy.com/city/moga" },
+              { text: "Abohar", link: "https://www.swiggy.com/city/abohar" },
+              { text: "Adoni", link: "https://www.swiggy.com/city/adoni" },
               {
                 text: "Madanapalle",
                 link: "https://www.swiggy.com/city/madanapalle",
@@ -5031,22 +4533,13 @@ const swiggyResDataList = {
                 text: "Tiruvannamalai",
                 link: "https://www.swiggy.com/city/tiruvannamalai",
               },
-              {
-                text: "Satara",
-                link: "https://www.swiggy.com/city/satara",
-              },
-              {
-                text: "Ambur",
-                link: "https://www.swiggy.com/city/ambur",
-              },
+              { text: "Satara", link: "https://www.swiggy.com/city/satara" },
+              { text: "Ambur", link: "https://www.swiggy.com/city/ambur" },
               {
                 text: "Karimnagar",
                 link: "https://www.swiggy.com/city/karimnagar",
               },
-              {
-                text: "Ratlam",
-                link: "https://www.swiggy.com/city/ratlam",
-              },
+              { text: "Ratlam", link: "https://www.swiggy.com/city/ratlam" },
               {
                 text: "Moradabad",
                 link: "https://www.swiggy.com/city/moradabad",
@@ -5055,10 +4548,7 @@ const swiggyResDataList = {
                 text: "Machilipatnam",
                 link: "https://www.swiggy.com/city/machilipatnam",
               },
-              {
-                text: "Ongole",
-                link: "https://www.swiggy.com/city/ongole",
-              },
+              { text: "Ongole", link: "https://www.swiggy.com/city/ongole" },
               {
                 text: "Kottayam",
                 link: "https://www.swiggy.com/city/kottayam",
@@ -5071,10 +4561,7 @@ const swiggyResDataList = {
                 text: "Kurukshetra",
                 link: "https://www.swiggy.com/city/kurukshetra",
               },
-              {
-                text: "Unnao",
-                link: "https://www.swiggy.com/city/unnao",
-              },
+              { text: "Unnao", link: "https://www.swiggy.com/city/unnao" },
               {
                 text: "Bulandshahr",
                 link: "https://www.swiggy.com/city/bulandshahr",
@@ -5087,10 +4574,7 @@ const swiggyResDataList = {
                 text: "Siliguri",
                 link: "https://www.swiggy.com/city/siliguri",
               },
-              {
-                text: "Pali",
-                link: "https://www.swiggy.com/city/pali",
-              },
+              { text: "Pali", link: "https://www.swiggy.com/city/pali" },
               {
                 text: "Tadepalligudem",
                 link: "https://www.swiggy.com/city/tadepalligudem",
@@ -5103,30 +4587,18 @@ const swiggyResDataList = {
                 text: "Mahbubnagar",
                 link: "https://www.swiggy.com/city/mahbubnagar",
               },
-              {
-                text: "Bhiwani",
-                link: "https://www.swiggy.com/city/bhiwani",
-              },
+              { text: "Bhiwani", link: "https://www.swiggy.com/city/bhiwani" },
               {
                 text: "Cuddalore",
                 link: "https://www.swiggy.com/city/cuddalore",
               },
-              {
-                text: "Kaithal",
-                link: "https://www.swiggy.com/city/kaithal",
-              },
-              {
-                text: "Jagtial",
-                link: "https://www.swiggy.com/city/jagtial",
-              },
+              { text: "Kaithal", link: "https://www.swiggy.com/city/kaithal" },
+              { text: "Jagtial", link: "https://www.swiggy.com/city/jagtial" },
               {
                 text: "Palakkad",
                 link: "https://www.swiggy.com/city/palakkad",
               },
-              {
-                text: "Guna",
-                link: "https://www.swiggy.com/city/guna",
-              },
+              { text: "Guna", link: "https://www.swiggy.com/city/guna" },
               {
                 text: "Kumbakonam",
                 link: "https://www.swiggy.com/city/kumbakonam",
@@ -5139,34 +4611,16 @@ const swiggyResDataList = {
                 text: "Baripada",
                 link: "https://www.swiggy.com/city/baripada",
               },
-              {
-                text: "Orai",
-                link: "https://www.swiggy.com/city/orai",
-              },
-              {
-                text: "Bhadrak",
-                link: "https://www.swiggy.com/city/bhadrak",
-              },
-              {
-                text: "Batala",
-                link: "https://www.swiggy.com/city/batala",
-              },
+              { text: "Orai", link: "https://www.swiggy.com/city/orai" },
+              { text: "Bhadrak", link: "https://www.swiggy.com/city/bhadrak" },
+              { text: "Batala", link: "https://www.swiggy.com/city/batala" },
               {
                 text: "Firozpur",
                 link: "https://www.swiggy.com/city/firozpur",
               },
-              {
-                text: "Barnala",
-                link: "https://www.swiggy.com/city/barnala",
-              },
-              {
-                text: "Raigarh",
-                link: "https://www.swiggy.com/city/raigarh",
-              },
-              {
-                text: "Nagaon",
-                link: "https://www.swiggy.com/city/nagaon",
-              },
+              { text: "Barnala", link: "https://www.swiggy.com/city/barnala" },
+              { text: "Raigarh", link: "https://www.swiggy.com/city/raigarh" },
+              { text: "Nagaon", link: "https://www.swiggy.com/city/nagaon" },
               {
                 text: "Mainpuri",
                 link: "https://www.swiggy.com/city/mainpuri",
@@ -5175,10 +4629,7 @@ const swiggyResDataList = {
                 text: "Balurghat",
                 link: "https://www.swiggy.com/city/balurghat",
               },
-              {
-                text: "Giridih",
-                link: "https://www.swiggy.com/city/giridih",
-              },
+              { text: "Giridih", link: "https://www.swiggy.com/city/giridih" },
               {
                 text: "Ghazipur",
                 link: "https://www.swiggy.com/city/ghazipur",
@@ -5187,22 +4638,13 @@ const swiggyResDataList = {
                 text: "Jagdalpur",
                 link: "https://www.swiggy.com/city/jagdalpur",
               },
-              {
-                text: "Vidisha",
-                link: "https://www.swiggy.com/city/vidisha",
-              },
-              {
-                text: "Dimapur",
-                link: "https://www.swiggy.com/city/dimapur",
-              },
+              { text: "Vidisha", link: "https://www.swiggy.com/city/vidisha" },
+              { text: "Dimapur", link: "https://www.swiggy.com/city/dimapur" },
               {
                 text: "Shikohabad",
                 link: "https://www.swiggy.com/city/shikohabad",
               },
-              {
-                text: "Imphal",
-                link: "https://www.swiggy.com/city/imphal",
-              },
+              { text: "Imphal", link: "https://www.swiggy.com/city/imphal" },
               {
                 text: "Lakhimpur",
                 link: "https://www.swiggy.com/city/lakhimpur",
@@ -5215,10 +4657,7 @@ const swiggyResDataList = {
                 text: "Ambikapur",
                 link: "https://www.swiggy.com/city/ambikapur",
               },
-              {
-                text: "Damoh",
-                link: "https://www.swiggy.com/city/damoh",
-              },
+              { text: "Damoh", link: "https://www.swiggy.com/city/damoh" },
               {
                 text: "Rae Bareli",
                 link: "https://www.swiggy.com/city/rae-bareli",
@@ -5259,14 +4698,8 @@ const swiggyResDataList = {
                 text: "Pudukkottai",
                 link: "https://www.swiggy.com/city/pudukkottai",
               },
-              {
-                text: "Hardoi",
-                link: "https://www.swiggy.com/city/hardoi",
-              },
-              {
-                text: "Basti",
-                link: "https://www.swiggy.com/city/basti",
-              },
+              { text: "Hardoi", link: "https://www.swiggy.com/city/hardoi" },
+              { text: "Basti", link: "https://www.swiggy.com/city/basti" },
               {
                 text: "Karaikkudi",
                 link: "https://www.swiggy.com/city/karaikkudi",
@@ -5275,42 +4708,21 @@ const swiggyResDataList = {
                 text: "Lalitpur",
                 link: "https://www.swiggy.com/city/lalitpur",
               },
-              {
-                text: "Hospet",
-                link: "https://www.swiggy.com/city/hospet",
-              },
-              {
-                text: "Budaun",
-                link: "https://www.swiggy.com/city/budaun",
-              },
-              {
-                text: "Neemuch",
-                link: "https://www.swiggy.com/city/neemuch",
-              },
+              { text: "Hospet", link: "https://www.swiggy.com/city/hospet" },
+              { text: "Budaun", link: "https://www.swiggy.com/city/budaun" },
+              { text: "Neemuch", link: "https://www.swiggy.com/city/neemuch" },
               {
                 text: "Pilibhit",
                 link: "https://www.swiggy.com/city/pilibhit",
               },
-              {
-                text: "Amroha",
-                link: "https://www.swiggy.com/city/amroha",
-              },
-              {
-                text: "Barshi",
-                link: "https://www.swiggy.com/city/barshi",
-              },
+              { text: "Amroha", link: "https://www.swiggy.com/city/amroha" },
+              { text: "Barshi", link: "https://www.swiggy.com/city/barshi" },
               {
                 text: "Sri Ganganagar",
                 link: "https://www.swiggy.com/city/sri-ganganagar",
               },
-              {
-                text: "Wardha",
-                link: "https://www.swiggy.com/city/wardha",
-              },
-              {
-                text: "Sehore",
-                link: "https://www.swiggy.com/city/sehore",
-              },
+              { text: "Wardha", link: "https://www.swiggy.com/city/wardha" },
+              { text: "Sehore", link: "https://www.swiggy.com/city/sehore" },
               {
                 text: "Bhimavaram",
                 link: "https://www.swiggy.com/city/bhimavaram",
@@ -5323,10 +4735,7 @@ const swiggyResDataList = {
                 text: "Pathankot",
                 link: "https://www.swiggy.com/city/pathankot",
               },
-              {
-                text: "Puri",
-                link: "https://www.swiggy.com/city/puri",
-              },
+              { text: "Puri", link: "https://www.swiggy.com/city/puri" },
               {
                 text: "Fatehpur",
                 link: "https://www.swiggy.com/city/fatehpur",
@@ -5339,26 +4748,14 @@ const swiggyResDataList = {
                 text: "Jamnagar",
                 link: "https://www.swiggy.com/city/jamnagar",
               },
-              {
-                text: "Bhuj",
-                link: "https://www.swiggy.com/city/bhuj",
-              },
+              { text: "Bhuj", link: "https://www.swiggy.com/city/bhuj" },
               {
                 text: "Gandhidham",
                 link: "https://www.swiggy.com/city/gandhidham",
               },
-              {
-                text: "Bharuch",
-                link: "https://www.swiggy.com/city/bharuch",
-              },
-              {
-                text: "Navsari",
-                link: "https://www.swiggy.com/city/navsari",
-              },
-              {
-                text: "Amreli",
-                link: "https://www.swiggy.com/city/amreli",
-              },
+              { text: "Bharuch", link: "https://www.swiggy.com/city/bharuch" },
+              { text: "Navsari", link: "https://www.swiggy.com/city/navsari" },
+              { text: "Amreli", link: "https://www.swiggy.com/city/amreli" },
               {
                 text: "Palanpur",
                 link: "https://www.swiggy.com/city/palanpur",
@@ -5371,22 +4768,10 @@ const swiggyResDataList = {
                 text: "Suratgarh",
                 link: "https://www.swiggy.com/city/suratgarh",
               },
-              {
-                text: "Sikar",
-                link: "https://www.swiggy.com/city/sikar",
-              },
-              {
-                text: "Churu",
-                link: "https://www.swiggy.com/city/churu",
-              },
-              {
-                text: "Alwar",
-                link: "https://www.swiggy.com/city/alwar",
-              },
-              {
-                text: "Bhiwadi",
-                link: "https://www.swiggy.com/city/bhiwadi",
-              },
+              { text: "Sikar", link: "https://www.swiggy.com/city/sikar" },
+              { text: "Churu", link: "https://www.swiggy.com/city/churu" },
+              { text: "Alwar", link: "https://www.swiggy.com/city/alwar" },
+              { text: "Bhiwadi", link: "https://www.swiggy.com/city/bhiwadi" },
               {
                 text: "Bharatpur",
                 link: "https://www.swiggy.com/city/bharatpur",
@@ -5395,18 +4780,12 @@ const swiggyResDataList = {
                 text: "Mount Abu",
                 link: "https://www.swiggy.com/city/mount-abu",
               },
-              {
-                text: "Bundi",
-                link: "https://www.swiggy.com/city/bundi",
-              },
+              { text: "Bundi", link: "https://www.swiggy.com/city/bundi" },
               {
                 text: "Sawai Madhopur",
                 link: "https://www.swiggy.com/city/sawai-madhopur",
               },
-              {
-                text: "Purulia",
-                link: "https://www.swiggy.com/city/purulia",
-              },
+              { text: "Purulia", link: "https://www.swiggy.com/city/purulia" },
               {
                 text: "Bardhaman",
                 link: "https://www.swiggy.com/city/bardhaman",
@@ -5427,10 +4806,7 @@ const swiggyResDataList = {
                 text: "Chittorgarh",
                 link: "https://www.swiggy.com/city/chittorgarh",
               },
-              {
-                text: "Dholpur",
-                link: "https://www.swiggy.com/city/dholpur",
-              },
+              { text: "Dholpur", link: "https://www.swiggy.com/city/dholpur" },
               {
                 text: "Uluberia",
                 link: "https://www.swiggy.com/city/uluberia",
@@ -5439,22 +4815,13 @@ const swiggyResDataList = {
                 text: "Nabadwip",
                 link: "https://www.swiggy.com/city/nabadwip",
               },
-              {
-                text: "Bongaon",
-                link: "https://www.swiggy.com/city/bongaon",
-              },
+              { text: "Bongaon", link: "https://www.swiggy.com/city/bongaon" },
               {
                 text: "Kanchrapara",
                 link: "https://www.swiggy.com/city/kanchrapara",
               },
-              {
-                text: "Bankura",
-                link: "https://www.swiggy.com/city/bankura",
-              },
-              {
-                text: "Habra",
-                link: "https://www.swiggy.com/city/habra",
-              },
+              { text: "Bankura", link: "https://www.swiggy.com/city/bankura" },
+              { text: "Habra", link: "https://www.swiggy.com/city/habra" },
               {
                 text: "Firozabad",
                 link: "https://www.swiggy.com/city/firozabad",
@@ -5467,18 +4834,12 @@ const swiggyResDataList = {
                 text: "Chandrapur",
                 link: "https://www.swiggy.com/city/chandrapur",
               },
-              {
-                text: "Bijapur",
-                link: "https://www.swiggy.com/city/bijapur",
-              },
+              { text: "Bijapur", link: "https://www.swiggy.com/city/bijapur" },
               {
                 text: "Bhusawal",
                 link: "https://www.swiggy.com/city/bhusawal",
               },
-              {
-                text: "Raichur",
-                link: "https://www.swiggy.com/city/raichur",
-              },
+              { text: "Raichur", link: "https://www.swiggy.com/city/raichur" },
               {
                 text: "Bahraich",
                 link: "https://www.swiggy.com/city/bahraich",
@@ -5491,30 +4852,15 @@ const swiggyResDataList = {
                 text: "Bahadurgarh",
                 link: "https://www.swiggy.com/city/bahadurgarh",
               },
-              {
-                text: "Jind",
-                link: "https://www.swiggy.com/city/jind",
-              },
-              {
-                text: "Rewari",
-                link: "https://www.swiggy.com/city/rewari",
-              },
-              {
-                text: "Palwal",
-                link: "https://www.swiggy.com/city/palwal",
-              },
-              {
-                text: "Hathras",
-                link: "https://www.swiggy.com/city/hathras",
-              },
+              { text: "Jind", link: "https://www.swiggy.com/city/jind" },
+              { text: "Rewari", link: "https://www.swiggy.com/city/rewari" },
+              { text: "Palwal", link: "https://www.swiggy.com/city/palwal" },
+              { text: "Hathras", link: "https://www.swiggy.com/city/hathras" },
               {
                 text: "Sambalpur",
                 link: "https://www.swiggy.com/city/sambalpur",
               },
-              {
-                text: "Banda",
-                link: "https://www.swiggy.com/city/banda",
-              },
+              { text: "Banda", link: "https://www.swiggy.com/city/banda" },
               {
                 text: "Hoshiarpur",
                 link: "https://www.swiggy.com/city/hoshiarpur",
@@ -5547,10 +4893,7 @@ const swiggyResDataList = {
                 text: "Tadpatri",
                 link: "https://www.swiggy.com/city/tadpatri",
               },
-              {
-                text: "Gonda",
-                link: "https://www.swiggy.com/city/gonda",
-              },
+              { text: "Gonda", link: "https://www.swiggy.com/city/gonda" },
               {
                 text: "Mughalsarai",
                 link: "https://www.swiggy.com/city/mughalsarai",
@@ -5559,10 +4902,7 @@ const swiggyResDataList = {
                 text: "Medinipur",
                 link: "https://www.swiggy.com/city/medinipur",
               },
-              {
-                text: "Nagda",
-                link: "https://www.swiggy.com/city/nagda",
-              },
+              { text: "Nagda", link: "https://www.swiggy.com/city/nagda" },
               {
                 text: "Chilakaluripet",
                 link: "https://www.swiggy.com/city/chilakaluripet",
@@ -5571,14 +4911,8 @@ const swiggyResDataList = {
                 text: "Hindupur",
                 link: "https://www.swiggy.com/city/hindupur",
               },
-              {
-                text: "Kasganj",
-                link: "https://www.swiggy.com/city/kasganj",
-              },
-              {
-                text: "Raiganj",
-                link: "https://www.swiggy.com/city/raiganj",
-              },
+              { text: "Kasganj", link: "https://www.swiggy.com/city/kasganj" },
+              { text: "Raiganj", link: "https://www.swiggy.com/city/raiganj" },
               {
                 text: "Deoria City",
                 link: "https://www.swiggy.com/city/deoria-city",
@@ -5587,18 +4921,12 @@ const swiggyResDataList = {
                 text: "Sultanpur",
                 link: "https://www.swiggy.com/city/sultanpur",
               },
-              {
-                text: "Shamli",
-                link: "https://www.swiggy.com/city/shamli",
-              },
+              { text: "Shamli", link: "https://www.swiggy.com/city/shamli" },
               {
                 text: "Krishnanagar",
                 link: "https://www.swiggy.com/city/krishnanagar",
               },
-              {
-                text: "Ballia",
-                link: "https://www.swiggy.com/city/ballia",
-              },
+              { text: "Ballia", link: "https://www.swiggy.com/city/ballia" },
               {
                 text: "Guntakal",
                 link: "https://www.swiggy.com/city/guntakal",
@@ -5607,10 +4935,7 @@ const swiggyResDataList = {
                 text: "Miryalaguda",
                 link: "https://www.swiggy.com/city/miryalaguda",
               },
-              {
-                text: "Etah",
-                link: "https://www.swiggy.com/city/etah",
-              },
+              { text: "Etah", link: "https://www.swiggy.com/city/etah" },
               {
                 text: "Berhampore",
                 link: "https://www.swiggy.com/city/berhampore",
@@ -5619,10 +4944,7 @@ const swiggyResDataList = {
                 text: "Gudivada",
                 link: "https://www.swiggy.com/city/gudivada",
               },
-              {
-                text: "Haldia",
-                link: "https://www.swiggy.com/city/haldia",
-              },
+              { text: "Haldia", link: "https://www.swiggy.com/city/haldia" },
               {
                 text: "Santipur",
                 link: "https://www.swiggy.com/city/santipur",
@@ -5631,14 +4953,8 @@ const swiggyResDataList = {
                 text: "Basirhat",
                 link: "https://www.swiggy.com/city/basirhat",
               },
-              {
-                text: "Seoni",
-                link: "https://www.swiggy.com/city/seoni",
-              },
-              {
-                text: "Udgir",
-                link: "https://www.swiggy.com/city/udgir",
-              },
+              { text: "Seoni", link: "https://www.swiggy.com/city/seoni" },
+              { text: "Udgir", link: "https://www.swiggy.com/city/udgir" },
               {
                 text: "Proddatur",
                 link: "https://www.swiggy.com/city/proddatur",
@@ -5655,14 +4971,8 @@ const swiggyResDataList = {
                 text: "Chandausi",
                 link: "https://www.swiggy.com/city/chandausi",
               },
-              {
-                text: "Bhind",
-                link: "https://www.swiggy.com/city/bhind",
-              },
-              {
-                text: "Mandya",
-                link: "https://www.swiggy.com/city/mandya",
-              },
+              { text: "Bhind", link: "https://www.swiggy.com/city/bhind" },
+              { text: "Mandya", link: "https://www.swiggy.com/city/mandya" },
               {
                 text: "Bagalkot",
                 link: "https://www.swiggy.com/city/bagalkot",
@@ -5691,78 +5001,36 @@ const swiggyResDataList = {
                 text: "Hoshangabad",
                 link: "https://www.swiggy.com/city/hoshangabad",
               },
-              {
-                text: "Jaunpur",
-                link: "https://www.swiggy.com/city/jaunpur",
-              },
-              {
-                text: "Khurja",
-                link: "https://www.swiggy.com/city/khurja",
-              },
+              { text: "Jaunpur", link: "https://www.swiggy.com/city/jaunpur" },
+              { text: "Khurja", link: "https://www.swiggy.com/city/khurja" },
               {
                 text: "Port Blair",
                 link: "https://www.swiggy.com/city/port-blair",
               },
-              {
-                text: "Jorhat",
-                link: "https://www.swiggy.com/city/jorhat",
-              },
-              {
-                text: "Nandyal",
-                link: "https://www.swiggy.com/city/nandyal",
-              },
+              { text: "Jorhat", link: "https://www.swiggy.com/city/jorhat" },
+              { text: "Nandyal", link: "https://www.swiggy.com/city/nandyal" },
               {
                 text: "Biharsharif",
                 link: "https://www.swiggy.com/city/biharsharif",
               },
-              {
-                text: "Buxar",
-                link: "https://www.swiggy.com/city/buxar",
-              },
-              {
-                text: "Siwan",
-                link: "https://www.swiggy.com/city/siwan",
-              },
-              {
-                text: "Dehri",
-                link: "https://www.swiggy.com/city/dehri",
-              },
-              {
-                text: "Bettiah",
-                link: "https://www.swiggy.com/city/bettiah",
-              },
+              { text: "Buxar", link: "https://www.swiggy.com/city/buxar" },
+              { text: "Siwan", link: "https://www.swiggy.com/city/siwan" },
+              { text: "Dehri", link: "https://www.swiggy.com/city/dehri" },
+              { text: "Bettiah", link: "https://www.swiggy.com/city/bettiah" },
               {
                 text: "Kishanganj",
                 link: "https://www.swiggy.com/city/kishanganj",
               },
-              {
-                text: "Saharsa",
-                link: "https://www.swiggy.com/city/saharsa",
-              },
-              {
-                text: "Hajipur",
-                link: "https://www.swiggy.com/city/hajipur",
-              },
+              { text: "Saharsa", link: "https://www.swiggy.com/city/saharsa" },
+              { text: "Hajipur", link: "https://www.swiggy.com/city/hajipur" },
               {
                 text: "Motihari",
                 link: "https://www.swiggy.com/city/motihari",
               },
-              {
-                text: "Sasaram",
-                link: "https://www.swiggy.com/city/sasaram",
-              },
-              {
-                text: "Munger",
-                link: "https://www.swiggy.com/city/munger",
-              },
-              {
-                text: "Katihar",
-                link: "https://www.swiggy.com/city/katihar",
-              },
-              {
-                text: "Arrah",
-                link: "https://www.swiggy.com/city/arrah",
-              },
+              { text: "Sasaram", link: "https://www.swiggy.com/city/sasaram" },
+              { text: "Munger", link: "https://www.swiggy.com/city/munger" },
+              { text: "Katihar", link: "https://www.swiggy.com/city/katihar" },
+              { text: "Arrah", link: "https://www.swiggy.com/city/arrah" },
               {
                 text: "Srikakulam",
                 link: "https://www.swiggy.com/city/srikakulam",
@@ -5771,14 +5039,8 @@ const swiggyResDataList = {
                 text: "Begusarai",
                 link: "https://www.swiggy.com/city/begusarai",
               },
-              {
-                text: "Neyveli",
-                link: "https://www.swiggy.com/city/neyveli",
-              },
-              {
-                text: "Waidhan",
-                link: "https://www.swiggy.com/city/waidhan",
-              },
+              { text: "Neyveli", link: "https://www.swiggy.com/city/neyveli" },
+              { text: "Waidhan", link: "https://www.swiggy.com/city/waidhan" },
               {
                 text: "Markapur",
                 link: "https://www.swiggy.com/city/markapur",
@@ -5787,26 +5049,11 @@ const swiggyResDataList = {
                 text: "Chikkaballapur",
                 link: "https://www.swiggy.com/city/chikkaballapur",
               },
-              {
-                text: "Bhatkal",
-                link: "https://www.swiggy.com/city/bhatkal",
-              },
-              {
-                text: "Gokak",
-                link: "https://www.swiggy.com/city/gokak",
-              },
-              {
-                text: "Itarsi",
-                link: "https://www.swiggy.com/city/itarsi",
-              },
-              {
-                text: "Dabra",
-                link: "https://www.swiggy.com/city/dabra",
-              },
-              {
-                text: "Dhar",
-                link: "https://www.swiggy.com/city/dhar",
-              },
+              { text: "Bhatkal", link: "https://www.swiggy.com/city/bhatkal" },
+              { text: "Gokak", link: "https://www.swiggy.com/city/gokak" },
+              { text: "Itarsi", link: "https://www.swiggy.com/city/itarsi" },
+              { text: "Dabra", link: "https://www.swiggy.com/city/dabra" },
+              { text: "Dhar", link: "https://www.swiggy.com/city/dhar" },
               {
                 text: "Chalisgaon",
                 link: "https://www.swiggy.com/city/chalisgaon",
@@ -5835,10 +5082,7 @@ const swiggyResDataList = {
                 text: "Siddipet",
                 link: "https://www.swiggy.com/city/siddipet",
               },
-              {
-                text: "Gadwal",
-                link: "https://www.swiggy.com/city/gadwal",
-              },
+              { text: "Gadwal", link: "https://www.swiggy.com/city/gadwal" },
               {
                 text: "Bodhan-Rural",
                 link: "https://www.swiggy.com/city/bodhan-rural",
@@ -5855,42 +5099,24 @@ const swiggyResDataList = {
                 text: "Kapurthala",
                 link: "https://www.swiggy.com/city/kapurthala",
               },
-              {
-                text: "Sangrur",
-                link: "https://www.swiggy.com/city/sangrur",
-              },
+              { text: "Sangrur", link: "https://www.swiggy.com/city/sangrur" },
               {
                 text: "Gurdaspur",
                 link: "https://www.swiggy.com/city/gurdaspur",
               },
-              {
-                text: "Ramgarh",
-                link: "https://www.swiggy.com/city/ramgarh",
-              },
-              {
-                text: "Bantwal",
-                link: "https://www.swiggy.com/city/bantwal",
-              },
+              { text: "Ramgarh", link: "https://www.swiggy.com/city/ramgarh" },
+              { text: "Bantwal", link: "https://www.swiggy.com/city/bantwal" },
               {
                 text: "Doddaballapura",
                 link: "https://www.swiggy.com/city/doddaballapura",
               },
-              {
-                text: "Buldana",
-                link: "https://www.swiggy.com/city/buldana",
-              },
-              {
-                text: "Karad",
-                link: "https://www.swiggy.com/city/karad",
-              },
+              { text: "Buldana", link: "https://www.swiggy.com/city/buldana" },
+              { text: "Karad", link: "https://www.swiggy.com/city/karad" },
               {
                 text: "Krishnagiri",
                 link: "https://www.swiggy.com/city/krishnagiri",
               },
-              {
-                text: "Tiptur",
-                link: "https://www.swiggy.com/city/tiptur",
-              },
+              { text: "Tiptur", link: "https://www.swiggy.com/city/tiptur" },
               {
                 text: "Bhadrachalam",
                 link: "https://www.swiggy.com/city/bhadrachalam",
@@ -5907,26 +5133,14 @@ const swiggyResDataList = {
                 text: "Bharabanki",
                 link: "https://www.swiggy.com/city/bharabanki",
               },
-              {
-                text: "Malout",
-                link: "https://www.swiggy.com/city/malout",
-              },
+              { text: "Malout", link: "https://www.swiggy.com/city/malout" },
               {
                 text: "Fatehgarh Sahib",
                 link: "https://www.swiggy.com/city/fatehgarh-sahib",
               },
-              {
-                text: "Ropar",
-                link: "https://www.swiggy.com/city/ropar",
-              },
-              {
-                text: "Nangal",
-                link: "https://www.swiggy.com/city/nangal",
-              },
-              {
-                text: "Narnaul",
-                link: "https://www.swiggy.com/city/narnaul",
-              },
+              { text: "Ropar", link: "https://www.swiggy.com/city/ropar" },
+              { text: "Nangal", link: "https://www.swiggy.com/city/nangal" },
+              { text: "Narnaul", link: "https://www.swiggy.com/city/narnaul" },
               {
                 text: "Naraingarh",
                 link: "https://www.swiggy.com/city/naraingarh",
@@ -5935,10 +5149,7 @@ const swiggyResDataList = {
                 text: "Himmatnagar",
                 link: "https://www.swiggy.com/city/himmatnagar",
               },
-              {
-                text: "Dausa",
-                link: "https://www.swiggy.com/city/dausa",
-              },
+              { text: "Dausa", link: "https://www.swiggy.com/city/dausa" },
               {
                 text: "Jahanabad",
                 link: "https://www.swiggy.com/city/jahanabad",
@@ -5947,54 +5158,27 @@ const swiggyResDataList = {
                 text: "Samastipur",
                 link: "https://www.swiggy.com/city/samastipur",
               },
-              {
-                text: "Purnea",
-                link: "https://www.swiggy.com/city/purnea",
-              },
+              { text: "Purnea", link: "https://www.swiggy.com/city/purnea" },
               {
                 text: "Berhampur",
                 link: "https://www.swiggy.com/city/berhampur",
               },
-              {
-                text: "Malda",
-                link: "https://www.swiggy.com/city/malda",
-              },
-              {
-                text: "Tuni",
-                link: "https://www.swiggy.com/city/tuni",
-              },
-              {
-                text: "Puttur",
-                link: "https://www.swiggy.com/city/puttur",
-              },
+              { text: "Malda", link: "https://www.swiggy.com/city/malda" },
+              { text: "Tuni", link: "https://www.swiggy.com/city/tuni" },
+              { text: "Puttur", link: "https://www.swiggy.com/city/puttur" },
               {
                 text: "Rayachoty",
                 link: "https://www.swiggy.com/city/rayachoty",
               },
-              {
-                text: "Medak",
-                link: "https://www.swiggy.com/city/medak",
-              },
-              {
-                text: "Nirmal",
-                link: "https://www.swiggy.com/city/nirmal",
-              },
+              { text: "Medak", link: "https://www.swiggy.com/city/medak" },
+              { text: "Nirmal", link: "https://www.swiggy.com/city/nirmal" },
               {
                 text: "Mirzapur",
                 link: "https://www.swiggy.com/city/mirzapur",
               },
-              {
-                text: "Tanuku",
-                link: "https://www.swiggy.com/city/tanuku",
-              },
-              {
-                text: "Dahod",
-                link: "https://www.swiggy.com/city/dahod",
-              },
-              {
-                text: "Barmer",
-                link: "https://www.swiggy.com/city/barmer",
-              },
+              { text: "Tanuku", link: "https://www.swiggy.com/city/tanuku" },
+              { text: "Dahod", link: "https://www.swiggy.com/city/dahod" },
+              { text: "Barmer", link: "https://www.swiggy.com/city/barmer" },
               {
                 text: "Gangapur City",
                 link: "https://www.swiggy.com/city/gangapur-city",
@@ -6007,30 +5191,15 @@ const swiggyResDataList = {
                 text: "Tarn Taran Sahib",
                 link: "https://www.swiggy.com/city/tarn-taran-sahib",
               },
-              {
-                text: "Nakodar",
-                link: "https://www.swiggy.com/city/nakodar",
-              },
+              { text: "Nakodar", link: "https://www.swiggy.com/city/nakodar" },
               {
                 text: "Ankleshwar",
                 link: "https://www.swiggy.com/city/ankleshwar",
               },
-              {
-                text: "Vyara",
-                link: "https://www.swiggy.com/city/vyara",
-              },
-              {
-                text: "Bardoli",
-                link: "https://www.swiggy.com/city/bardoli",
-              },
-              {
-                text: "Halol",
-                link: "https://www.swiggy.com/city/halol",
-              },
-              {
-                text: "Bijnor",
-                link: "https://www.swiggy.com/city/bijnor",
-              },
+              { text: "Vyara", link: "https://www.swiggy.com/city/vyara" },
+              { text: "Bardoli", link: "https://www.swiggy.com/city/bardoli" },
+              { text: "Halol", link: "https://www.swiggy.com/city/halol" },
+              { text: "Bijnor", link: "https://www.swiggy.com/city/bijnor" },
               {
                 text: "Sawantwadi",
                 link: "https://www.swiggy.com/city/sawantwadi",
@@ -6047,18 +5216,12 @@ const swiggyResDataList = {
                 text: "Baramati",
                 link: "https://www.swiggy.com/city/baramati",
               },
-              {
-                text: "Betul",
-                link: "https://www.swiggy.com/city/betul",
-              },
+              { text: "Betul", link: "https://www.swiggy.com/city/betul" },
               {
                 text: "Chhatarpur",
                 link: "https://www.swiggy.com/city/chhatarpur",
               },
-              {
-                text: "Datia",
-                link: "https://www.swiggy.com/city/datia",
-              },
+              { text: "Datia", link: "https://www.swiggy.com/city/datia" },
               {
                 text: "Balaghat",
                 link: "https://www.swiggy.com/city/balaghat",
@@ -6075,38 +5238,20 @@ const swiggyResDataList = {
                 text: "Ramanathapuram",
                 link: "https://www.swiggy.com/city/ramanathapuram",
               },
-              {
-                text: "Sirsi",
-                link: "https://www.swiggy.com/city/sirsi",
-              },
+              { text: "Sirsi", link: "https://www.swiggy.com/city/sirsi" },
               {
                 text: "Kodaikanal",
                 link: "https://www.swiggy.com/city/kodaikanal",
               },
-              {
-                text: "Theni",
-                link: "https://www.swiggy.com/city/theni",
-              },
-              {
-                text: "Karur",
-                link: "https://www.swiggy.com/city/karur",
-              },
-              {
-                text: "Karwar",
-                link: "https://www.swiggy.com/city/karwar",
-              },
+              { text: "Theni", link: "https://www.swiggy.com/city/theni" },
+              { text: "Karur", link: "https://www.swiggy.com/city/karur" },
+              { text: "Karwar", link: "https://www.swiggy.com/city/karwar" },
               {
                 text: "Sindhanur",
                 link: "https://www.swiggy.com/city/sindhanur",
               },
-              {
-                text: "Kannur",
-                link: "https://www.swiggy.com/city/kannur",
-              },
-              {
-                text: "Noida 1",
-                link: "https://www.swiggy.com/city/noida-1",
-              },
+              { text: "Kannur", link: "https://www.swiggy.com/city/kannur" },
+              { text: "Noida 1", link: "https://www.swiggy.com/city/noida-1" },
               {
                 text: "Karunagappaly",
                 link: "https://www.swiggy.com/city/karunagappaly",
@@ -6119,18 +5264,9 @@ const swiggyResDataList = {
                 text: "Thodupuzha",
                 link: "https://www.swiggy.com/city/thodupuzha",
               },
-              {
-                text: "Kadiri",
-                link: "https://www.swiggy.com/city/kadiri",
-              },
-              {
-                text: "Kavali",
-                link: "https://www.swiggy.com/city/kavali",
-              },
-              {
-                text: "Tezpur",
-                link: "https://www.swiggy.com/city/tezpur",
-              },
+              { text: "Kadiri", link: "https://www.swiggy.com/city/kadiri" },
+              { text: "Kavali", link: "https://www.swiggy.com/city/kavali" },
+              { text: "Tezpur", link: "https://www.swiggy.com/city/tezpur" },
               {
                 text: "Kayamkulam",
                 link: "https://www.swiggy.com/city/kayamkulam",
@@ -6147,30 +5283,15 @@ const swiggyResDataList = {
                 text: "Fatehabad",
                 link: "https://www.swiggy.com/city/fatehabad",
               },
-              {
-                text: "Jagraon",
-                link: "https://www.swiggy.com/city/jagraon",
-              },
-              {
-                text: "Mansa",
-                link: "https://www.swiggy.com/city/mansa",
-              },
+              { text: "Jagraon", link: "https://www.swiggy.com/city/jagraon" },
+              { text: "Mansa", link: "https://www.swiggy.com/city/mansa" },
               {
                 text: "Pinjore City",
                 link: "https://www.swiggy.com/city/pinjore-city",
               },
-              {
-                text: "Fazilka",
-                link: "https://www.swiggy.com/city/fazilka",
-              },
-              {
-                text: "Baddi",
-                link: "https://www.swiggy.com/city/baddi",
-              },
-              {
-                text: "Solan",
-                link: "https://www.swiggy.com/city/solan",
-              },
+              { text: "Fazilka", link: "https://www.swiggy.com/city/fazilka" },
+              { text: "Baddi", link: "https://www.swiggy.com/city/baddi" },
+              { text: "Solan", link: "https://www.swiggy.com/city/solan" },
               {
                 text: "Daltonganj",
                 link: "https://www.swiggy.com/city/daltonganj",
@@ -6187,10 +5308,7 @@ const swiggyResDataList = {
                 text: "Kothagudem",
                 link: "https://www.swiggy.com/city/kothagudem",
               },
-              {
-                text: "Hansi",
-                link: "https://www.swiggy.com/city/hansi",
-              },
+              { text: "Hansi", link: "https://www.swiggy.com/city/hansi" },
               {
                 text: "Aurangabad_Bihar",
                 link: "https://www.swiggy.com/city/aurangabadbihar",
@@ -6207,10 +5325,7 @@ const swiggyResDataList = {
                 text: "Jharsuguda",
                 link: "https://www.swiggy.com/city/jharsuguda",
               },
-              {
-                text: "Tohana",
-                link: "https://www.swiggy.com/city/tohana",
-              },
+              { text: "Tohana", link: "https://www.swiggy.com/city/tohana" },
               {
                 text: "Jhalawar",
                 link: "https://www.swiggy.com/city/jhalawar",
@@ -6223,10 +5338,7 @@ const swiggyResDataList = {
                 text: "Bagdogra",
                 link: "https://www.swiggy.com/city/bagdogra",
               },
-              {
-                text: "Angul",
-                link: "https://www.swiggy.com/city/angul",
-              },
+              { text: "Angul", link: "https://www.swiggy.com/city/angul" },
               {
                 text: "Kendrapada",
                 link: "https://www.swiggy.com/city/kendrapada",
@@ -6235,18 +5347,9 @@ const swiggyResDataList = {
                 text: "Mallapuram (Do not Use)",
                 link: "https://www.swiggy.com/city/mallapuram-do-not-use",
               },
-              {
-                text: "Veraval",
-                link: "https://www.swiggy.com/city/veraval",
-              },
-              {
-                text: "Daman",
-                link: "https://www.swiggy.com/city/daman",
-              },
-              {
-                text: "Chiplun",
-                link: "https://www.swiggy.com/city/chiplun",
-              },
+              { text: "Veraval", link: "https://www.swiggy.com/city/veraval" },
+              { text: "Daman", link: "https://www.swiggy.com/city/daman" },
+              { text: "Chiplun", link: "https://www.swiggy.com/city/chiplun" },
               {
                 text: "Silvassa",
                 link: "https://www.swiggy.com/city/silvassa",
@@ -6255,10 +5358,7 @@ const swiggyResDataList = {
                 text: "Bapatla&Chirala",
                 link: "https://www.swiggy.com/city/bapatla-and-chirala",
               },
-              {
-                text: "Lonavla",
-                link: "https://www.swiggy.com/city/lonavla",
-              },
+              { text: "Lonavla", link: "https://www.swiggy.com/city/lonavla" },
               {
                 text: "Bongaigaon",
                 link: "https://www.swiggy.com/city/bongaigaon",
@@ -6275,10 +5375,7 @@ const swiggyResDataList = {
                 text: "Ramnagar",
                 link: "https://www.swiggy.com/city/ramnagar",
               },
-              {
-                text: "Bolpur",
-                link: "https://www.swiggy.com/city/bolpur",
-              },
+              { text: "Bolpur", link: "https://www.swiggy.com/city/bolpur" },
               {
                 text: "Madhubani",
                 link: "https://www.swiggy.com/city/madhubani",
@@ -6291,58 +5388,28 @@ const swiggyResDataList = {
                 text: "Palampur",
                 link: "https://www.swiggy.com/city/palampur",
               },
-              {
-                text: "Kotdwar",
-                link: "https://www.swiggy.com/city/kotdwar",
-              },
-              {
-                text: "Koppal",
-                link: "https://www.swiggy.com/city/koppal",
-              },
-              {
-                text: "Chikhli",
-                link: "https://www.swiggy.com/city/chikhli",
-              },
-              {
-                text: "Dahanu",
-                link: "https://www.swiggy.com/city/dahanu",
-              },
+              { text: "Kotdwar", link: "https://www.swiggy.com/city/kotdwar" },
+              { text: "Koppal", link: "https://www.swiggy.com/city/koppal" },
+              { text: "Chikhli", link: "https://www.swiggy.com/city/chikhli" },
+              { text: "Dahanu", link: "https://www.swiggy.com/city/dahanu" },
               {
                 text: "Itanagar",
                 link: "https://www.swiggy.com/city/itanagar",
               },
-              {
-                text: "Rangpo",
-                link: "https://www.swiggy.com/city/rangpo",
-              },
-              {
-                text: "Aizawl",
-                link: "https://www.swiggy.com/city/aizawl",
-              },
-              {
-                text: "Gangtok",
-                link: "https://www.swiggy.com/city/gangtok",
-              },
+              { text: "Rangpo", link: "https://www.swiggy.com/city/rangpo" },
+              { text: "Aizawl", link: "https://www.swiggy.com/city/aizawl" },
+              { text: "Gangtok", link: "https://www.swiggy.com/city/gangtok" },
               {
                 text: "Mayiladuthurai",
                 link: "https://www.swiggy.com/city/mayiladuthurai",
               },
-              {
-                text: "Kannauj",
-                link: "https://www.swiggy.com/city/kannauj",
-              },
+              { text: "Kannauj", link: "https://www.swiggy.com/city/kannauj" },
               {
                 text: "Cooch Behar",
                 link: "https://www.swiggy.com/city/cooch-behar",
               },
-              {
-                text: "Jaigaon",
-                link: "https://www.swiggy.com/city/jaigaon",
-              },
-              {
-                text: "Palani",
-                link: "https://www.swiggy.com/city/palani",
-              },
+              { text: "Jaigaon", link: "https://www.swiggy.com/city/jaigaon" },
+              { text: "Palani", link: "https://www.swiggy.com/city/palani" },
               {
                 text: "Bilimora",
                 link: "https://www.swiggy.com/city/bilimora",
@@ -6351,22 +5418,13 @@ const swiggyResDataList = {
                 text: "Udhampur",
                 link: "https://www.swiggy.com/city/udhampur",
               },
-              {
-                text: "Boisar",
-                link: "https://www.swiggy.com/city/boisar",
-              },
-              {
-                text: "Kohima",
-                link: "https://www.swiggy.com/city/kohima",
-              },
+              { text: "Boisar", link: "https://www.swiggy.com/city/boisar" },
+              { text: "Kohima", link: "https://www.swiggy.com/city/kohima" },
               {
                 text: "Naharlagun",
                 link: "https://www.swiggy.com/city/naharlagun",
               },
-              {
-                text: "Dumka",
-                link: "https://www.swiggy.com/city/dumka",
-              },
+              { text: "Dumka", link: "https://www.swiggy.com/city/dumka" },
               {
                 text: "Rajsamand",
                 link: "https://www.swiggy.com/city/rajsamand",
@@ -6383,10 +5441,7 @@ const swiggyResDataList = {
                 text: "Bhawanipatna",
                 link: "https://www.swiggy.com/city/bhawanipatna",
               },
-              {
-                text: "Baran",
-                link: "https://www.swiggy.com/city/baran",
-              },
+              { text: "Baran", link: "https://www.swiggy.com/city/baran" },
               {
                 text: "Narsinghpur",
                 link: "https://www.swiggy.com/city/narsinghpur",
@@ -6403,22 +5458,13 @@ const swiggyResDataList = {
                 text: "Kasaragod",
                 link: "https://www.swiggy.com/city/kasaragod",
               },
-              {
-                text: "Pusad",
-                link: "https://www.swiggy.com/city/pusad",
-              },
+              { text: "Pusad", link: "https://www.swiggy.com/city/pusad" },
               {
                 text: "Kendujhar",
                 link: "https://www.swiggy.com/city/kendujhar",
               },
-              {
-                text: "Manali",
-                link: "https://www.swiggy.com/city/manali",
-              },
-              {
-                text: "Diu",
-                link: "https://www.swiggy.com/city/diu",
-              },
+              { text: "Manali", link: "https://www.swiggy.com/city/manali" },
+              { text: "Diu", link: "https://www.swiggy.com/city/diu" },
               {
                 text: "Khamgaon",
                 link: "https://www.swiggy.com/city/khamgaon",
@@ -6431,10 +5477,7 @@ const swiggyResDataList = {
                 text: "Alipurduar",
                 link: "https://www.swiggy.com/city/alipurduar",
               },
-              {
-                text: "Almora",
-                link: "https://www.swiggy.com/city/almora",
-              },
+              { text: "Almora", link: "https://www.swiggy.com/city/almora" },
               {
                 text: "Jhargram",
                 link: "https://www.swiggy.com/city/jhargram",
@@ -6443,14 +5486,8 @@ const swiggyResDataList = {
                 text: "Arambagh",
                 link: "https://www.swiggy.com/city/arambagh",
               },
-              {
-                text: "Bhadohi",
-                link: "https://www.swiggy.com/city/bhadohi",
-              },
-              {
-                text: "Tenkasi",
-                link: "https://www.swiggy.com/city/tenkasi",
-              },
+              { text: "Bhadohi", link: "https://www.swiggy.com/city/bhadohi" },
+              { text: "Tenkasi", link: "https://www.swiggy.com/city/tenkasi" },
               {
                 text: "Srivilliputhur",
                 link: "https://www.swiggy.com/city/srivilliputhur",
@@ -6459,18 +5496,12 @@ const swiggyResDataList = {
                 text: "Chidambaram",
                 link: "https://www.swiggy.com/city/chidambaram",
               },
-              {
-                text: "Rajgarh",
-                link: "https://www.swiggy.com/city/rajgarh",
-              },
+              { text: "Rajgarh", link: "https://www.swiggy.com/city/rajgarh" },
               {
                 text: "Pratapgarh",
                 link: "https://www.swiggy.com/city/pratapgarh",
               },
-              {
-                text: "Washim",
-                link: "https://www.swiggy.com/city/washim",
-              },
+              { text: "Washim", link: "https://www.swiggy.com/city/washim" },
               {
                 text: "Mandi HP",
                 link: "https://www.swiggy.com/city/mandi-hp",
@@ -6483,10 +5514,7 @@ const swiggyResDataList = {
                 text: "Raghunathpur",
                 link: "https://www.swiggy.com/city/raghunathpur",
               },
-              {
-                text: "Suri",
-                link: "https://www.swiggy.com/city/suri",
-              },
+              { text: "Suri", link: "https://www.swiggy.com/city/suri" },
               {
                 text: "Kadayanallur",
                 link: "https://www.swiggy.com/city/kadayanallur",
@@ -6499,14 +5527,8 @@ const swiggyResDataList = {
                 text: "Ranaghat-WB",
                 link: "https://www.swiggy.com/city/ranaghat-wb",
               },
-              {
-                text: "Idukki",
-                link: "https://www.swiggy.com/city/idukki",
-              },
-              {
-                text: "Wayanad",
-                link: "https://www.swiggy.com/city/wayanad",
-              },
+              { text: "Idukki", link: "https://www.swiggy.com/city/idukki" },
+              { text: "Wayanad", link: "https://www.swiggy.com/city/wayanad" },
               {
                 text: "Perambalur",
                 link: "https://www.swiggy.com/city/perambalur",
@@ -6515,18 +5537,12 @@ const swiggyResDataList = {
                 text: "Paramakudi",
                 link: "https://www.swiggy.com/city/paramakudi",
               },
-              {
-                text: "Khopoli",
-                link: "https://www.swiggy.com/city/khopoli",
-              },
+              { text: "Khopoli", link: "https://www.swiggy.com/city/khopoli" },
               {
                 text: "Bela Pratapgarh",
                 link: "https://www.swiggy.com/city/bela-pratapgarh",
               },
-              {
-                text: "Mahoba",
-                link: "https://www.swiggy.com/city/mahoba",
-              },
+              { text: "Mahoba", link: "https://www.swiggy.com/city/mahoba" },
               {
                 text: "Sitamarhi",
                 link: "https://www.swiggy.com/city/sitamarhi",
@@ -6563,10 +5579,7 @@ const swiggyResDataList = {
                 text: "Arakkonam",
                 link: "https://www.swiggy.com/city/arakkonam",
               },
-              {
-                text: "Sirkali",
-                link: "https://www.swiggy.com/city/sirkali",
-              },
+              { text: "Sirkali", link: "https://www.swiggy.com/city/sirkali" },
               {
                 text: "Aruppukottai",
                 link: "https://www.swiggy.com/city/aruppukottai",
@@ -6575,18 +5588,12 @@ const swiggyResDataList = {
                 text: "Mettupalayam",
                 link: "https://www.swiggy.com/city/mettupalayam",
               },
-              {
-                text: "Digboi",
-                link: "https://www.swiggy.com/city/digboi",
-              },
+              { text: "Digboi", link: "https://www.swiggy.com/city/digboi" },
               {
                 text: "Biswanath Chariali",
                 link: "https://www.swiggy.com/city/biswanath-chariali",
               },
-              {
-                text: "Nalbari",
-                link: "https://www.swiggy.com/city/nalbari",
-              },
+              { text: "Nalbari", link: "https://www.swiggy.com/city/nalbari" },
               {
                 text: "Shirdi city",
                 link: "https://www.swiggy.com/city/shirdi-city",
@@ -6595,10 +5602,7 @@ const swiggyResDataList = {
                 text: "Mukerian",
                 link: "https://www.swiggy.com/city/mukerian",
               },
-              {
-                text: "Hosur",
-                link: "https://www.swiggy.com/city/hosur",
-              },
+              { text: "Hosur", link: "https://www.swiggy.com/city/hosur" },
               {
                 text: "Palakollu",
                 link: "https://www.swiggy.com/city/palakollu",
@@ -6615,18 +5619,9 @@ const swiggyResDataList = {
                 text: "Narsipatnam",
                 link: "https://www.swiggy.com/city/narsipatnam",
               },
-              {
-                text: "Barh",
-                link: "https://www.swiggy.com/city/barh",
-              },
-              {
-                text: "Palghar",
-                link: "https://www.swiggy.com/city/palghar",
-              },
-              {
-                text: "Shahdol",
-                link: "https://www.swiggy.com/city/shahdol",
-              },
+              { text: "Barh", link: "https://www.swiggy.com/city/barh" },
+              { text: "Palghar", link: "https://www.swiggy.com/city/palghar" },
+              { text: "Shahdol", link: "https://www.swiggy.com/city/shahdol" },
               {
                 text: "Kushalnagar",
                 link: "https://www.swiggy.com/city/kushalnagar",
@@ -6639,34 +5634,22 @@ const swiggyResDataList = {
                 text: "Chaibasa",
                 link: "https://www.swiggy.com/city/chaibasa",
               },
-              {
-                text: "Haveri",
-                link: "https://www.swiggy.com/city/haveri",
-              },
+              { text: "Haveri", link: "https://www.swiggy.com/city/haveri" },
               {
                 text: "Karaikal",
                 link: "https://www.swiggy.com/city/karaikal",
               },
-              {
-                text: "Jjajjar",
-                link: "https://www.swiggy.com/city/jjajjar",
-              },
+              { text: "Jjajjar", link: "https://www.swiggy.com/city/jjajjar" },
               {
                 text: "Kokrajhar",
                 link: "https://www.swiggy.com/city/kokrajhar",
               },
-              {
-                text: "Rangia",
-                link: "https://www.swiggy.com/city/rangia",
-              },
+              { text: "Rangia", link: "https://www.swiggy.com/city/rangia" },
               {
                 text: "Hamirpur",
                 link: "https://www.swiggy.com/city/hamirpur",
               },
-              {
-                text: "Una",
-                link: "https://www.swiggy.com/city/una",
-              },
+              { text: "Una", link: "https://www.swiggy.com/city/una" },
               {
                 text: "Sulthan Bathery",
                 link: "https://www.swiggy.com/city/sulthan-bathery",
@@ -6683,10 +5666,7 @@ const swiggyResDataList = {
                 text: "Mandapeta",
                 link: "https://www.swiggy.com/city/mandapeta",
               },
-              {
-                text: "Jamui",
-                link: "https://www.swiggy.com/city/jamui",
-              },
+              { text: "Jamui", link: "https://www.swiggy.com/city/jamui" },
               {
                 text: "Pilkhuwa",
                 link: "https://www.swiggy.com/city/pilkhuwa",
@@ -6699,10 +5679,7 @@ const swiggyResDataList = {
                 text: "Ambajogai",
                 link: "https://www.swiggy.com/city/ambajogai",
               },
-              {
-                text: "Araria",
-                link: "https://www.swiggy.com/city/araria",
-              },
+              { text: "Araria", link: "https://www.swiggy.com/city/araria" },
               {
                 text: "North Lakhimpur",
                 link: "https://www.swiggy.com/city/north-lakhimpur",
@@ -6719,38 +5696,23 @@ const swiggyResDataList = {
                 text: "Tirupattur",
                 link: "https://www.swiggy.com/city/tirupattur",
               },
-              {
-                text: "Hojai",
-                link: "https://www.swiggy.com/city/hojai",
-              },
+              { text: "Hojai", link: "https://www.swiggy.com/city/hojai" },
               {
                 text: "Khagaria",
                 link: "https://www.swiggy.com/city/khagaria",
               },
-              {
-                text: "Dasuya",
-                link: "https://www.swiggy.com/city/dasuya",
-              },
-              {
-                text: "Gudur",
-                link: "https://www.swiggy.com/city/gudur",
-              },
+              { text: "Dasuya", link: "https://www.swiggy.com/city/dasuya" },
+              { text: "Gudur", link: "https://www.swiggy.com/city/gudur" },
               {
                 text: "Sullurpeta",
                 link: "https://www.swiggy.com/city/sullurpeta",
               },
-              {
-                text: "Piler",
-                link: "https://www.swiggy.com/city/piler",
-              },
+              { text: "Piler", link: "https://www.swiggy.com/city/piler" },
               {
                 text: "SankaranKoil",
                 link: "https://www.swiggy.com/city/sankarankoil",
               },
-              {
-                text: "Nabha",
-                link: "https://www.swiggy.com/city/nabha",
-              },
+              { text: "Nabha", link: "https://www.swiggy.com/city/nabha" },
               {
                 text: "LPU - Phagwara",
                 link: "https://www.swiggy.com/city/lpu-phagwara",
@@ -6759,10 +5721,7 @@ const swiggyResDataList = {
                 text: "Jangipur",
                 link: "https://www.swiggy.com/city/jangipur",
               },
-              {
-                text: "Roha",
-                link: "https://www.swiggy.com/city/roha",
-              },
+              { text: "Roha", link: "https://www.swiggy.com/city/roha" },
               {
                 text: "Maharajganj",
                 link: "https://www.swiggy.com/city/maharajganj",
@@ -6779,10 +5738,7 @@ const swiggyResDataList = {
                 text: "Sundernagar",
                 link: "https://www.swiggy.com/city/sundernagar",
               },
-              {
-                text: "Nawada",
-                link: "https://www.swiggy.com/city/nawada",
-              },
+              { text: "Nawada", link: "https://www.swiggy.com/city/nawada" },
               {
                 text: "Forbesganj",
                 link: "https://www.swiggy.com/city/forbesganj",
@@ -6791,10 +5747,7 @@ const swiggyResDataList = {
                 text: "Mokameh Khas",
                 link: "https://www.swiggy.com/city/mokameh-khas",
               },
-              {
-                text: "Bazpur",
-                link: "https://www.swiggy.com/city/bazpur",
-              },
+              { text: "Bazpur", link: "https://www.swiggy.com/city/bazpur" },
               {
                 text: "Lakhisarai",
                 link: "https://www.swiggy.com/city/lakhisarai",
@@ -6819,22 +5772,13 @@ const swiggyResDataList = {
                 text: "Chamarajanagar",
                 link: "https://www.swiggy.com/city/chamarajanagar",
               },
-              {
-                text: "Kurali",
-                link: "https://www.swiggy.com/city/kurali",
-              },
+              { text: "Kurali", link: "https://www.swiggy.com/city/kurali" },
               {
                 text: "Sundar Nagar",
                 link: "https://www.swiggy.com/city/sundar-nagar",
               },
-              {
-                text: "Bobbili",
-                link: "https://www.swiggy.com/city/bobbili",
-              },
-              {
-                text: "Jangaon",
-                link: "https://www.swiggy.com/city/jangaon",
-              },
+              { text: "Bobbili", link: "https://www.swiggy.com/city/bobbili" },
+              { text: "Jangaon", link: "https://www.swiggy.com/city/jangaon" },
               {
                 text: "Banswara",
                 link: "https://www.swiggy.com/city/banswara",
@@ -6843,26 +5787,17 @@ const swiggyResDataList = {
                 text: "Sundergarh",
                 link: "https://www.swiggy.com/city/sundergarh",
               },
-              {
-                text: "Godda",
-                link: "https://www.swiggy.com/city/godda",
-              },
+              { text: "Godda", link: "https://www.swiggy.com/city/godda" },
               {
                 text: "Madhupur",
                 link: "https://www.swiggy.com/city/madhupur",
               },
-              {
-                text: "Katwa",
-                link: "https://www.swiggy.com/city/katwa",
-              },
+              { text: "Katwa", link: "https://www.swiggy.com/city/katwa" },
               {
                 text: "Dhupguri",
                 link: "https://www.swiggy.com/city/dhupguri",
               },
-              {
-                text: "Contai",
-                link: "https://www.swiggy.com/city/contai",
-              },
+              { text: "Contai", link: "https://www.swiggy.com/city/contai" },
               {
                 text: "Baramulla",
                 link: "https://www.swiggy.com/city/baramulla",
@@ -6883,34 +5818,13 @@ const swiggyResDataList = {
                 text: "Jamkhambhaliya",
                 link: "https://www.swiggy.com/city/jamkhambhaliya",
               },
-              {
-                text: "Mundra",
-                link: "https://www.swiggy.com/city/mundra",
-              },
-              {
-                text: "Patan",
-                link: "https://www.swiggy.com/city/patan",
-              },
-              {
-                text: "Mahuva",
-                link: "https://www.swiggy.com/city/mahuva",
-              },
-              {
-                text: "Attur",
-                link: "https://www.swiggy.com/city/attur",
-              },
-              {
-                text: "Pen",
-                link: "https://www.swiggy.com/city/pen",
-              },
-              {
-                text: "Mandla",
-                link: "https://www.swiggy.com/city/mandla",
-              },
-              {
-                text: "Sidhi",
-                link: "https://www.swiggy.com/city/sidhi",
-              },
+              { text: "Mundra", link: "https://www.swiggy.com/city/mundra" },
+              { text: "Patan", link: "https://www.swiggy.com/city/patan" },
+              { text: "Mahuva", link: "https://www.swiggy.com/city/mahuva" },
+              { text: "Attur", link: "https://www.swiggy.com/city/attur" },
+              { text: "Pen", link: "https://www.swiggy.com/city/pen" },
+              { text: "Mandla", link: "https://www.swiggy.com/city/mandla" },
+              { text: "Sidhi", link: "https://www.swiggy.com/city/sidhi" },
               {
                 text: "Lakshadweep",
                 link: "https://www.swiggy.com/city/lakshadweep",
@@ -6919,14 +5833,8 @@ const swiggyResDataList = {
                 text: "Chitrakoot",
                 link: "https://www.swiggy.com/city/chitrakoot",
               },
-              {
-                text: "Rajam",
-                link: "https://www.swiggy.com/city/rajam",
-              },
-              {
-                text: "Nippani",
-                link: "https://www.swiggy.com/city/nippani",
-              },
+              { text: "Rajam", link: "https://www.swiggy.com/city/rajam" },
+              { text: "Nippani", link: "https://www.swiggy.com/city/nippani" },
               {
                 text: "Sankeshwar",
                 link: "https://www.swiggy.com/city/sankeshwar",
@@ -6935,26 +5843,14 @@ const swiggyResDataList = {
                 text: "Chikkodi",
                 link: "https://www.swiggy.com/city/chikkodi",
               },
-              {
-                text: "Modasa",
-                link: "https://www.swiggy.com/city/modasa",
-              },
-              {
-                text: "Bavla",
-                link: "https://www.swiggy.com/city/bavla",
-              },
+              { text: "Modasa", link: "https://www.swiggy.com/city/modasa" },
+              { text: "Bavla", link: "https://www.swiggy.com/city/bavla" },
               {
                 text: "Puttur_AP",
                 link: "https://www.swiggy.com/city/puttur-ap",
               },
-              {
-                text: "Sinnar",
-                link: "https://www.swiggy.com/city/sinnar",
-              },
-              {
-                text: "singur",
-                link: "https://www.swiggy.com/city/singur",
-              },
+              { text: "Sinnar", link: "https://www.swiggy.com/city/sinnar" },
+              { text: "singur", link: "https://www.swiggy.com/city/singur" },
               {
                 text: "Nelamangala",
                 link: "https://www.swiggy.com/city/nelamangala",
@@ -6963,10 +5859,7 @@ const swiggyResDataList = {
                 text: "Srinagar Uttarakhand",
                 link: "https://www.swiggy.com/city/srinagar-uttarakhand",
               },
-              {
-                text: "Dhampur",
-                link: "https://www.swiggy.com/city/dhampur",
-              },
+              { text: "Dhampur", link: "https://www.swiggy.com/city/dhampur" },
             ],
             id: "footer_content",
           },
@@ -6980,9 +5873,9 @@ const swiggyResDataList = {
             lat: "17.67740",
             lng: "83.20360",
             userAgent:
-              "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0",
             gandalfRequest:
-              '{"sortAttribute":"relevance","isFiltered":false,"queryId":"seo-data-cd53c7af-211f-469b-b48f-a7b8a2895cc6","seoParams":{"apiName":"FoodHomePage","brandId":"","seoUrl":"www.swiggy.com/restaurants","pageType":"FOOD_HOME_PAGE","businessLine":"FOOD"}}',
+              '{"sortAttribute":"relevance","isFiltered":false,"queryId":"seo-data-2c30897c-bfe2-4b9c-b22b-a0ac5a543512","seoParams":{"apiName":"FoodHomePage","brandId":"","seoUrl":"www.swiggy.com","pageType":"FOOD_HOME_PAGE","businessLine":"FOOD"}}',
             id: "meta_data",
             metaInfo: {
               pageType: "FOOD_HOME_PAGE",
@@ -6996,7 +5889,7 @@ const swiggyResDataList = {
             screenType: "filteredCollection",
             seoParams: {
               apiName: "FoodHomePage",
-              seoUrl: "www.swiggy.com/restaurants",
+              seoUrl: "www.swiggy.com",
               pageType: "FOOD_HOME_PAGE",
               businessLine: "FOOD",
             },
@@ -7013,10 +5906,10 @@ const swiggyResDataList = {
     cacheExpiryTime: 240,
     nextFetch: 1,
   },
-  tid: "dd00663e-1cbf-4fa2-a7d9-76e260c788d3",
-  sid: "kof8d723-f32c-479f-a7cf-fdf229f39547",
-  deviceId: "9995ace3-215b-40a4-60c0-23b3724c5475",
-  csrfToken: "37eamgsIYt3d-bbg4pJ0IXtiIM2M5tZrnZ9OyvHw",
+  tid: "92f79237-9b38-46a8-9d8c-ae756f8e0643",
+  sid: "krn760f2-a79f-49b7-a282-30ead75b3465",
+  deviceId: "49ff907f-0eaf-40d7-a4ce-ea90eaa0e8ec",
+  csrfToken: "eG1HN8DsytYr-l5E8PbGvk-Vr50LXAmwa5ouwk0Y",
 };
 
 export const resDataList =
