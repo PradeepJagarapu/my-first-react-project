@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { resDataList } from "../utils/swiggyResDataList";
+import { Link } from "react-router-dom";
 
 const swiggyImgSourcePath =
   "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/";
@@ -72,11 +73,6 @@ const SearchBoxDiv = function () {
         >
           Top Rated
         </button>
-        <select>
-          <option>Biryani</option>
-          <option>Pizza</option>
-          <option>Burger</option>
-        </select>
         <button
           onClick={() => {
             const filtedResList = resDataList.filter((restaurant) => {
@@ -100,7 +96,20 @@ const SearchBoxDiv = function () {
 
       <div id="foodItems">
         {listOfRestaurants.map((restaurant, index) => {
-          return <RestaurantCard key={index} resData={restaurant} />;
+          var resId = restaurant.info.id;
+          return (
+            <Link
+              key={index}
+              to="/restaurant"
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+                display: "block",
+              }}
+            >
+              <RestaurantCard key={index} resData={restaurant} />
+            </Link>
+          );
         })}
       </div>
     </>
@@ -125,6 +134,7 @@ const RestaurantCard = function (props) {
         src={swiggyImgSourcePath + props.resData.info.cloudinaryImageId}
         alt="food image"
       />
+      <h4>{props.resData.info.id}</h4>
       <h4>{props.resData.info.name}</h4>
       <h4>{props.resData.info.avgRating}</h4>
       <h4>{props.resData.info.cuisines.slice(0, 3).join(",")}</h4>

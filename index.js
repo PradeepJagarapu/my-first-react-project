@@ -12,6 +12,7 @@ import About from "./src/components/About";
 import Contact from "./src/components/Contact";
 import Cart from "./src/components/Cart";
 import Body from "./src/components/Body";
+import Restaurant from "./src/components/Restaurant";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         element: <Cart />,
       },
     ],
+  },
+  {
+    path: "/restaurant",
+    element: <Restaurant />,
   },
 ]);
 root.render(<RouterProvider router={router} />);
