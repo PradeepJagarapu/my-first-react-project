@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = function () {
   return (
     <div id="header">
@@ -23,16 +25,16 @@ const Menu = function () {
     <div id="menu">
       <ul>
         <li>
-          <a href="">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li>
-          <a href="">About us</a>
+          <Link to="/about">About us</Link>
         </li>
         <li>
-          <a href="">Contact Us</a>
+          <Link to="/contact">Contact Us</Link>
         </li>
         <li>
-          <a href="">Services</a>
+          <Link to="/cart">Cart</Link>
         </li>
       </ul>
     </div>
